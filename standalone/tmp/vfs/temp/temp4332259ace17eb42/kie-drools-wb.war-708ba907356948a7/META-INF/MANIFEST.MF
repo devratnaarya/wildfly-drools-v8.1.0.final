@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Build-Timestamp: Fri, 25 Sep 2015 14:13:02 +0200
+Implementation-Title: KIE Drools Workbench - Distribution Wars
+Implementation-Version: 6.3.0.Final
+Os-Version: 2.6.32-504.8.1.el6.x86_64
+Built-By: kiereleaseuser
+Specification-Vendor: JBoss by Red Hat
+Created-By: Apache Maven 3.2.3
+Os-Name: Linux
+Implementation-URL: http://www.jboss.org/drools/kie-parent-with-depend
+ encies/kie-wb-distributions/kie-drools-wb/kie-drools-wb-distribution-
+ wars
+Java-Vendor: Oracle Corporation
+Implementation-Vendor: JBoss by Red Hat
+Scm-Revision: 1fd3fccaac9b1b20733d00550d7eed01431dcb0a
+Implementation-Vendor-Id: org.kie
+Scm-Url: https://github.com/droolsjbpm/droolsjbpm-build-bootstrap/kie-
+ parent-with-dependencies/kie-wb-distributions/kie-drools-wb/kie-drool
+ s-wb-distribution-wars
+Build-Jdk: 1.7.0_25
+Java-Version: 1.7.0_25
+Scm-Connection: scm:git:git@github.com:droolsjbpm/droolsjbpm-build-boo
+ tstrap.git/kie-parent-with-dependencies/kie-wb-distributions/kie-droo
+ ls-wb/kie-drools-wb-distribution-wars
+Os-Arch: amd64
+Specification-Title: KIE Drools Workbench - Distribution Wars
+Specification-Version: 6.3.0.Final
+Archiver-Version: Plexus Archiver
+

@@ -1,0 +1,468 @@
+=========================================================================
+
+  JBoss Bootstrap Environment
+
+  JBOSS_HOME: /Users/dev/git/wildfly-8.1.0.Final
+
+  JAVA: java
+
+  JAVA_OPTS:  -server -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true
+
+=========================================================================
+
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+[0m00:12:12,307 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+[0m[0m00:12:12,523 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+[0m[0m00:12:12,608 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+[0m[0m00:12:13,544 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+[0m[0m00:12:13,563 INFO  [org.xnio] (MSC service thread 1-14) XNIO version 3.2.2.Final
+[0m[0m00:12:13,571 INFO  [org.xnio.nio] (MSC service thread 1-14) XNIO NIO Implementation Version 3.2.2.Final
+[0m[0m00:12:13,587 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 36) JBAS016300: Activating JacORB Subsystem
+[0m[0m00:12:13,589 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 35) JBAS010280: Activating Infinispan subsystem.
+[0m[33m00:12:13,589 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+[0m[0m00:12:13,590 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 51) JBAS013171: Activating Security Subsystem
+[0m[0m00:12:13,592 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 34) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+[0m[0m00:12:13,598 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) JBAS011800: Activating Naming Subsystem
+[0m[0m00:12:13,615 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) JBAS012615: Activated the following JSF Implementations: [main]
+[0m[0m00:12:13,620 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.21.Beta1
+[0m[0m00:12:13,621 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) JBAS015537: Activating WebServices Extension
+[0m[0m00:12:13,634 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-8) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+[0m[0m00:12:13,644 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017502: Undertow 1.0.15.Final starting
+[0m[0m00:12:13,645 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017502: Undertow 1.0.15.Final starting
+[0m[0m00:12:13,666 INFO  [org.jboss.as.naming] (MSC service thread 1-6) JBAS011802: Starting Naming Service
+[0m[0m00:12:13,668 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-12) JBAS015400: Bound mail session [java:jboss/mail/Default]
+[0m[0m00:12:13,674 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+[0m[0m00:12:13,682 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-15) JBAS010417: Started Driver service with driver-name = h2
+[0m[0m00:12:13,809 INFO  [org.jboss.remoting] (MSC service thread 1-14) JBoss Remoting version 4.0.3.Final
+[0m[0m00:12:13,811 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017527: Creating file handler for path /Users/dev/git/wildfly-8.1.0.Final/welcome-content
+[0m[0m00:12:13,821 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017525: Started server default-server.
+[0m[0m00:12:13,829 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-13) JBAS017531: Host default-host starting
+[0m[0m00:12:13,943 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /Users/dev/git/wildfly-8.1.0.Final/standalone/deployments
+[0m[0m00:12:13,942 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017519: Undertow HTTP listener default listening on /0.0.0.0:8080
+[0m[0m00:12:13,950 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015876: Starting deployment of "kie-drools-wb.war" (runtime-name: "kie-drools-wb.war")
+[0m[33m00:12:13,965 WARN  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011600: AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+[0m[0m00:12:13,991 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+[0m[0m00:12:14,003 INFO  [org.jboss.as.jacorb] (MSC service thread 1-8) JBAS016330: CORBA ORB Service started
+[0m[0m00:12:14,068 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/Users/dev/git/wildfly-8.1.0.Final/standalone/data/messagingjournal,bindingsDirectory=/Users/dev/git/wildfly-8.1.0.Final/standalone/data/messagingbindings,largeMessagesDirectory=/Users/dev/git/wildfly-8.1.0.Final/standalone/data/messaginglargemessages,pagingDirectory=/Users/dev/git/wildfly-8.1.0.Final/standalone/data/messagingpaging)
+[0m[0m00:12:14,070 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221006: Waiting to obtain live lock
+[0m[0m00:12:14,134 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221013: Using NIO Journal
+[0m[0m00:12:14,148 INFO  [org.jboss.as.jacorb] (MSC service thread 1-5) JBAS016328: CORBA Naming Service started
+[0m[0m00:12:14,327 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 56) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[0m[0m00:12:14,357 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support CORE
+[0m[0m00:12:14,366 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support AMQP
+[0m[0m00:12:14,370 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support STOMP
+[0m[0m00:12:14,398 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221034: Waiting to obtain live lock
+[0m[0m00:12:14,398 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221035: Live Server Obtained live lock
+[0m[0m00:12:14,478 INFO  [org.jboss.messaging] (MSC service thread 1-6) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+[0m[0m00:12:14,478 INFO  [org.jboss.messaging] (MSC service thread 1-3) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+[0m[0m00:12:14,499 INFO  [org.jboss.ws.common.management] (MSC service thread 1-10) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+[0m[0m00:12:14,543 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221007: Server is now live
+[0m[0m00:12:14,543 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221001: HornetQ Server version 2.4.1.Final (Fast Hornet, 124) [be2680a8-32e3-11e9-9972-9b8b49ebc098] 
+[0m[0m00:12:14,574 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 56) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+[0m[0m00:12:14,576 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 59) HQ221003: trying to deploy queue jms.queue.DLQ
+[0m[0m00:12:14,637 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+[0m[0m00:12:14,638 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+[0m[0m00:12:14,640 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+[0m[0m00:12:14,644 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-15) JBAS010406: Registered connection factory java:/JmsXA
+[0m[0m00:12:14,645 INFO  [org.hornetq.jms.server] (ServerService Thread Pool -- 57) HQ121005: Invalid "host" value "0.0.0.0" detected for "http-connector" connector. Switching to "devratna-arya-0281". If this new address is incorrect please manually configure the connector to use the proper one.
+[0m[0m00:12:14,647 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 57) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+[0m[0m00:12:14,724 INFO  [org.hornetq.ra] (MSC service thread 1-15) HornetQ resource adaptor started
+[0m[0m00:12:14,725 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-15) IJ020002: Deployed: file://RaActivatorhornetq-ra
+[0m[0m00:12:14,726 INFO  [org.jboss.as.messaging] (MSC service thread 1-11) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+[0m[0m00:12:14,729 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-13) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+[0m[33m00:12:20,683 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry avalon-framework-4.2.0.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,683 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry batik-all-1.7.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,684 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry commons-io-1.3.1.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,684 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry commons-logging-1.0.4.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,684 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry serializer-2.7.0.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,685 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry servlet-2.2.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,685 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry xalan-2.7.0.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,685 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry xercesImpl-2.7.1.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,685 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry xml-apis-1.3.04.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,686 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry xml-apis-ext-1.3.04.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,686 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry xmlgraphics-commons-1.3.1.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,686 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry fop-hyph.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,686 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry jai_codec.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,686 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry jai_core.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,687 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry jai_imageio.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,687 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry jimi-1.0.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,687 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry xmlunit1.0.jar in /content/kie-drools-wb.war/WEB-INF/lib/fop-0.95.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,746 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry jaxb-api.jar in /content/kie-drools-wb.war/WEB-INF/lib/jaxb-core-2.2.11.jar  does not point to a valid jar for a Class-Path reference.
+[0m[33m00:12:20,888 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015960: Class Path entry jaxb-core.jar in /content/kie-drools-wb.war/WEB-INF/lib/jaxb-impl-2.2.11.jar  does not point to a valid jar for a Class-Path reference.
+[0m[0m00:12:21,380 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011401: Read persistence.xml for org.jbpm.domain
+[0m[0m00:12:22,057 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 57) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'kie-drools-wb.war#org.jbpm.domain'
+[0m[0m00:12:22,070 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 57) HHH000204: Processing PersistenceUnitInfo [
+	name: org.jbpm.domain
+	...]
+[0m[0m00:12:22,136 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 57) HHH000412: Hibernate Core {4.3.5.Final}
+[0m[0m00:12:22,137 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 57) HHH000206: hibernate.properties not found
+[0m[0m00:12:22,138 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 57) HHH000021: Bytecode provider name : javassist
+[0m[0m00:12:24,205 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016002: Processing weld deployment kie-drools-wb.war
+[0m[0m00:12:24,284 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.1.0.Final
+[0m[0m00:12:24,370 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named AvailableJobsExecutor in deployment unit deployment "kie-drools-wb.war" are as follows:
+
+	java:global/kie-drools-wb/AvailableJobsExecutor!org.jbpm.executor.cdi.impl.AvailableJobsExecutorCDIImpl
+	java:app/kie-drools-wb/AvailableJobsExecutor!org.jbpm.executor.cdi.impl.AvailableJobsExecutorCDIImpl
+	java:module/AvailableJobsExecutor!org.jbpm.executor.cdi.impl.AvailableJobsExecutorCDIImpl
+	java:global/kie-drools-wb/AvailableJobsExecutor
+	java:app/kie-drools-wb/AvailableJobsExecutor
+	java:module/AvailableJobsExecutor
+
+[0m[0m00:12:24,370 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named MailboxProcessOutgoingExecutorManager in deployment unit deployment "kie-drools-wb.war" are as follows:
+
+	java:global/kie-drools-wb/MailboxProcessOutgoingExecutorManager!org.guvnor.inbox.backend.server.MailboxProcessOutgoingExecutorManager
+	java:app/kie-drools-wb/MailboxProcessOutgoingExecutorManager!org.guvnor.inbox.backend.server.MailboxProcessOutgoingExecutorManager
+	java:module/MailboxProcessOutgoingExecutorManager!org.guvnor.inbox.backend.server.MailboxProcessOutgoingExecutorManager
+	java:global/kie-drools-wb/MailboxProcessOutgoingExecutorManager
+	java:app/kie-drools-wb/MailboxProcessOutgoingExecutorManager
+	java:module/MailboxProcessOutgoingExecutorManager
+
+[0m[0m00:12:24,370 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named SimpleAsyncExecutorService in deployment unit deployment "kie-drools-wb.war" are as follows:
+
+	java:global/kie-drools-wb/SimpleAsyncExecutorService!java.util.concurrent.Executor
+	java:app/kie-drools-wb/SimpleAsyncExecutorService!java.util.concurrent.Executor
+	java:module/SimpleAsyncExecutorService!java.util.concurrent.Executor
+	java:global/kie-drools-wb/SimpleAsyncExecutorService
+	java:app/kie-drools-wb/SimpleAsyncExecutorService
+	java:module/SimpleAsyncExecutorService
+
+[0m[0m00:12:24,370 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named IOWatchServiceExecutorImpl in deployment unit deployment "kie-drools-wb.war" are as follows:
+
+	java:global/kie-drools-wb/IOWatchServiceExecutorImpl!org.uberfire.backend.server.io.watch.IOWatchServiceExecutor
+	java:app/kie-drools-wb/IOWatchServiceExecutorImpl!org.uberfire.backend.server.io.watch.IOWatchServiceExecutor
+	java:module/IOWatchServiceExecutorImpl!org.uberfire.backend.server.io.watch.IOWatchServiceExecutor
+	java:global/kie-drools-wb/IOWatchServiceExecutorImpl
+	java:app/kie-drools-wb/IOWatchServiceExecutorImpl
+	java:module/IOWatchServiceExecutorImpl
+
+[0m[0m00:12:24,371 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named ConfigServiceWatchServiceExecutorImpl in deployment unit deployment "kie-drools-wb.war" are as follows:
+
+	java:global/kie-drools-wb/ConfigServiceWatchServiceExecutorImpl!org.guvnor.structure.backend.config.watch.ConfigServiceWatchServiceExecutor
+	java:app/kie-drools-wb/ConfigServiceWatchServiceExecutorImpl!org.guvnor.structure.backend.config.watch.ConfigServiceWatchServiceExecutor
+	java:module/ConfigServiceWatchServiceExecutorImpl!org.guvnor.structure.backend.config.watch.ConfigServiceWatchServiceExecutor
+	java:global/kie-drools-wb/ConfigServiceWatchServiceExecutorImpl
+	java:app/kie-drools-wb/ConfigServiceWatchServiceExecutorImpl
+	java:module/ConfigServiceWatchServiceExecutorImpl
+
+[0m[0m00:12:24,371 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named AlternativeStarterBean in deployment unit deployment "kie-drools-wb.war" are as follows:
+
+	java:global/kie-drools-wb/AlternativeStarterBean!org.uberfire.backend.server.cdi.AlternativeStarterBean
+	java:app/kie-drools-wb/AlternativeStarterBean!org.uberfire.backend.server.cdi.AlternativeStarterBean
+	java:module/AlternativeStarterBean!org.uberfire.backend.server.cdi.AlternativeStarterBean
+	java:global/kie-drools-wb/AlternativeStarterBean
+	java:app/kie-drools-wb/AlternativeStarterBean
+	java:module/AlternativeStarterBean
+
+[0m[0m00:12:24,371 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named DeploymentSynchronizerCDInvoker in deployment unit deployment "kie-drools-wb.war" are as follows:
+
+	java:global/kie-drools-wb/DeploymentSynchronizerCDInvoker!org.jbpm.services.cdi.impl.store.DeploymentSynchronizerCDInvoker
+	java:app/kie-drools-wb/DeploymentSynchronizerCDInvoker!org.jbpm.services.cdi.impl.store.DeploymentSynchronizerCDInvoker
+	java:module/DeploymentSynchronizerCDInvoker!org.jbpm.services.cdi.impl.store.DeploymentSynchronizerCDInvoker
+	java:global/kie-drools-wb/DeploymentSynchronizerCDInvoker
+	java:app/kie-drools-wb/DeploymentSynchronizerCDInvoker
+	java:module/DeploymentSynchronizerCDInvoker
+
+[0m[0m00:12:24,371 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named IncrementalBuilderExecutorManager in deployment unit deployment "kie-drools-wb.war" are as follows:
+
+	java:global/kie-drools-wb/IncrementalBuilderExecutorManager!org.guvnor.common.services.builder.IncrementalBuilderExecutorManager
+	java:app/kie-drools-wb/IncrementalBuilderExecutorManager!org.guvnor.common.services.builder.IncrementalBuilderExecutorManager
+	java:module/IncrementalBuilderExecutorManager!org.guvnor.common.services.builder.IncrementalBuilderExecutorManager
+	java:global/kie-drools-wb/IncrementalBuilderExecutorManager
+	java:app/kie-drools-wb/IncrementalBuilderExecutorManager
+	java:module/IncrementalBuilderExecutorManager
+
+[0m[0m00:12:24,605 INFO  [org.jboss.weld.deployer] (MSC service thread 1-11) JBAS016005: Starting Services for CDI deployment: kie-drools-wb.war
+[0m[0m00:12:24,644 INFO  [org.jboss.weld.Version] (MSC service thread 1-11) WELD-000900: 2.1.2 (Final)
+[0m[0m00:12:24,679 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) JBAS016008: Starting weld service for deployment kie-drools-wb.war
+[0m[0m00:12:25,160 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 57) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'kie-drools-wb.war#org.jbpm.domain'
+[0m[0m00:12:25,253 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 57) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+[0m[0m00:12:25,606 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 57) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[0m[33m00:12:25,615 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 57) HHH000431: Unable to determine H2 database version, certain features may not work
+[0m[0m00:12:25,900 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 57) HHH000397: Using ASTQueryTranslatorFactory
+[0m[0m00:12:26,410 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000228: Running hbm2ddl schema update
+[0m[0m00:12:26,410 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000102: Fetching database metadata
+[0m[0m00:12:26,418 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000396: Updating schema
+[0m[0m00:12:26,422 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Attachment
+[0m[0m00:12:26,424 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: AuditTaskImpl
+[0m[0m00:12:26,424 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: BAMTaskSummary
+[0m[0m00:12:26,425 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: BooleanExpression
+[0m[0m00:12:26,426 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Content
+[0m[0m00:12:26,427 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ContextMappingInfo
+[0m[0m00:12:26,427 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: CorrelationKeyInfo
+[0m[0m00:12:26,428 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: CorrelationPropertyInfo
+[0m[0m00:12:26,428 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Deadline
+[0m[0m00:12:26,429 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Delegation_delegates
+[0m[0m00:12:26,429 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: DeploymentStore
+[0m[0m00:12:26,430 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ErrorInfo
+[0m[0m00:12:26,431 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Escalation
+[0m[0m00:12:26,431 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: EventTypes
+[0m[0m00:12:26,432 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: I18NText
+[0m[0m00:12:26,432 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: NodeInstanceLog
+[0m[0m00:12:26,433 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification
+[0m[0m00:12:26,433 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification_BAs
+[0m[0m00:12:26,434 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification_Recipients
+[0m[0m00:12:26,435 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification_email_header
+[0m[0m00:12:26,435 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: OrganizationalEntity
+[0m[0m00:12:26,436 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_BAs
+[0m[0m00:12:26,436 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_ExclOwners
+[0m[0m00:12:26,437 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_PotOwners
+[0m[0m00:12:26,437 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_Recipients
+[0m[0m00:12:26,438 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_Stakeholders
+[0m[0m00:12:26,439 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ProcessInstanceInfo
+[0m[0m00:12:26,439 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ProcessInstanceLog
+[0m[0m00:12:26,440 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Reassignment
+[0m[0m00:12:26,440 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Reassignment_potentialOwners
+[0m[0m00:12:26,441 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: RequestInfo
+[0m[0m00:12:26,441 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: SessionInfo
+[0m[0m00:12:26,442 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Task
+[0m[0m00:12:26,443 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: TaskDef
+[0m[0m00:12:26,443 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: TaskEvent
+[0m[0m00:12:26,444 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: VariableInstanceLog
+[0m[0m00:12:26,444 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: WorkItemInfo
+[0m[0m00:12:26,445 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: email_header
+[0m[0m00:12:26,445 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: task_comment
+[0m[0m00:12:26,446 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Attachment
+[0m[0m00:12:26,447 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: AuditTaskImpl
+[0m[0m00:12:26,447 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: BAMTaskSummary
+[0m[0m00:12:26,448 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: BooleanExpression
+[0m[0m00:12:26,448 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Content
+[0m[0m00:12:26,449 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ContextMappingInfo
+[0m[0m00:12:26,449 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: CorrelationKeyInfo
+[0m[0m00:12:26,450 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: CorrelationPropertyInfo
+[0m[0m00:12:26,451 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Deadline
+[0m[0m00:12:26,451 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Delegation_delegates
+[0m[0m00:12:26,452 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: DeploymentStore
+[0m[0m00:12:26,453 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ErrorInfo
+[0m[0m00:12:26,453 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Escalation
+[0m[0m00:12:26,454 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: EventTypes
+[0m[0m00:12:26,455 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: I18NText
+[0m[0m00:12:26,455 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: NodeInstanceLog
+[0m[0m00:12:26,456 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification
+[0m[0m00:12:26,457 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification_BAs
+[0m[0m00:12:26,458 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification_Recipients
+[0m[0m00:12:26,458 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification_email_header
+[0m[0m00:12:26,459 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: OrganizationalEntity
+[0m[0m00:12:26,460 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_BAs
+[0m[0m00:12:26,461 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_ExclOwners
+[0m[0m00:12:26,461 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_PotOwners
+[0m[0m00:12:26,462 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_Recipients
+[0m[0m00:12:26,463 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_Stakeholders
+[0m[0m00:12:26,463 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ProcessInstanceInfo
+[0m[0m00:12:26,464 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ProcessInstanceLog
+[0m[0m00:12:26,465 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Reassignment
+[0m[0m00:12:26,465 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Reassignment_potentialOwners
+[0m[0m00:12:26,466 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: RequestInfo
+[0m[0m00:12:26,467 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: SessionInfo
+[0m[0m00:12:26,467 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Task
+[0m[0m00:12:26,468 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: TaskDef
+[0m[0m00:12:26,468 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: TaskEvent
+[0m[0m00:12:26,469 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: VariableInstanceLog
+[0m[0m00:12:26,469 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: WorkItemInfo
+[0m[0m00:12:26,470 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: email_header
+[0m[0m00:12:26,470 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: task_comment
+[0m[0m00:12:26,471 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Attachment
+[0m[0m00:12:26,471 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: AuditTaskImpl
+[0m[0m00:12:26,472 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: BAMTaskSummary
+[0m[0m00:12:26,472 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: BooleanExpression
+[0m[0m00:12:26,473 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Content
+[0m[0m00:12:26,473 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ContextMappingInfo
+[0m[0m00:12:26,474 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: CorrelationKeyInfo
+[0m[0m00:12:26,474 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: CorrelationPropertyInfo
+[0m[0m00:12:26,475 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Deadline
+[0m[0m00:12:26,475 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Delegation_delegates
+[0m[0m00:12:26,476 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: DeploymentStore
+[0m[0m00:12:26,477 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ErrorInfo
+[0m[0m00:12:26,477 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Escalation
+[0m[0m00:12:26,477 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: EventTypes
+[0m[0m00:12:26,478 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: I18NText
+[0m[0m00:12:26,479 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: NodeInstanceLog
+[0m[0m00:12:26,479 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification
+[0m[0m00:12:26,480 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification_BAs
+[0m[0m00:12:26,480 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification_Recipients
+[0m[0m00:12:26,481 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Notification_email_header
+[0m[0m00:12:26,481 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: OrganizationalEntity
+[0m[0m00:12:26,482 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_BAs
+[0m[0m00:12:26,482 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_ExclOwners
+[0m[0m00:12:26,483 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_PotOwners
+[0m[0m00:12:26,483 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_Recipients
+[0m[0m00:12:26,484 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: PeopleAssignments_Stakeholders
+[0m[0m00:12:26,485 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ProcessInstanceInfo
+[0m[0m00:12:26,485 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: ProcessInstanceLog
+[0m[0m00:12:26,486 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Reassignment
+[0m[0m00:12:26,486 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Reassignment_potentialOwners
+[0m[0m00:12:26,487 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: RequestInfo
+[0m[0m00:12:26,487 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: SessionInfo
+[0m[0m00:12:26,487 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Task
+[0m[0m00:12:26,488 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: TaskDef
+[0m[0m00:12:26,488 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: TaskEvent
+[0m[0m00:12:26,489 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: VariableInstanceLog
+[0m[0m00:12:26,489 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: WorkItemInfo
+[0m[0m00:12:26,489 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: email_header
+[0m[0m00:12:26,490 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: task_comment
+[0m[0m00:12:26,539 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000232: Schema update complete
+[0m[33m00:12:27,404 WARN  [org.jboss.weld.Event] (MSC service thread 1-7) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.errai.cdi.server.CDIExtensionPoints.observeResources(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m00:12:27,408 WARN  [org.jboss.weld.Event] (MSC service thread 1-7) WELD-000411: Observer method [BackedAnnotatedMethod] org.kie.internal.runtime.cdi.ActivateExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m00:12:27,418 WARN  [org.jboss.weld.Event] (MSC service thread 1-7) WELD-000411: Observer method [BackedAnnotatedMethod] org.uberfire.ext.security.server.HttpServletRequestProducerExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m00:12:27,430 WARN  [org.jboss.weld.Event] (MSC service thread 1-7) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.errai.security.server.SecurityAnnotationExtension.addParameterLogger(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m00:12:27,434 WARN  [org.jboss.weld.Event] (MSC service thread 1-7) WELD-000411: Observer method [BackedAnnotatedMethod] org.uberfire.backend.server.cdi.SystemConfigProducer.processAnnotatedType(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m00:12:27,444 WARN  [org.jboss.weld.Event] (MSC service thread 1-7) WELD-000411: Observer method [BackedAnnotatedMethod] org.jbpm.services.cdi.impl.ExcludeNonCDIImplExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m00:12:27,446 WARN  [org.jboss.weld.Event] (MSC service thread 1-7) WELD-000411: Observer method [BackedAnnotatedMethod] org.jbpm.executor.cdi.impl.ExcludeNonCDIImplExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[0m00:12:27,760 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) starting errai cdi ...
+[0m[0m00:12:28,663 INFO  [org.jboss.weld.Bootstrap] (weld-worker-7) WELD-000119: Not generating any bean definitions from org.jboss.errai.marshalling.server.impl.ServerMarshallingFactoryImpl$Marshaller_for_org_uberfire_ext_widgets_common_client_tables_popup_DataGridFilterSummaryImpl because of underlying class loading error: Type org.uberfire.ext.widgets.common.client.tables.popup.DataGridFilterSummary from [Module "deployment.kie-drools-wb.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+[0m[0m00:12:29,824 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.ext.plugin.backend.PluginServicesImpl
+[0m[0m00:12:29,830 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.ext.layout.editor.impl.LayoutServicesImpl
+[0m[0m00:12:29,839 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.screens.datamodeller.backend.server.PersistenceDescriptorServiceImpl
+[0m[0m00:12:29,846 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.screens.datamodeller.backend.server.PersistenceDescriptorEditorServiceImpl
+[0m[0m00:12:29,850 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.screens.datamodeller.backend.server.DataModelerServiceImpl
+[0m[0m00:12:29,945 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.enums.backend.server.EnumServiceImpl
+[0m[0m00:12:29,951 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.screens.explorer.backend.server.ExplorerServiceImpl
+[0m[0m00:12:29,967 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Dependent @Service class org.jboss.errai.security.server.NonCachingUserServiceImpl
+[0m[0m00:12:29,986 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.asset.management.backend.service.AssetManagementServiceImpl
+[0m[0m00:12:29,988 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.asset.management.backend.service.RepositoryStructureServiceImpl
+[0m[0m00:12:29,994 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.ext.apps.impl.AppsPersistenceImpl
+[0m[0m00:12:29,996 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.globals.backend.server.GlobalsEditorServiceImpl
+[0m[0m00:12:29,998 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.screens.projecteditor.backend.server.ProjectScreenServiceImpl
+[0m[0m00:12:30,007 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl
+[0m[0m00:12:30,030 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.designer.server.service.DefaultDesignerAssetService
+[0m[0m00:12:30,054 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.formModeler.renderer.backend.service.FormRendererIncluderServiceImpl
+[0m[0m00:12:30,056 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @SessionScoped class org.jbpm.formModeler.renderer.backend.service.FormRenderingServiceImpl
+[0m[0m00:12:30,059 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.guided.dtree.backend.server.GuidedDecisionTreeEditorServiceImpl
+[0m[0m00:12:30,060 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service class org.uberfire.ext.services.backend.preferences.UserPreferencesServiceImpl
+[0m[0m00:12:30,068 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.dsltext.backend.server.DSLTextEditorServiceImpl
+[0m[0m00:12:30,070 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.pr.backend.server.DocumentsServiceImpl
+[0m[0m00:12:30,071 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.pr.backend.server.ProcessInstanceServiceImpl
+[0m[0m00:12:30,073 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.pr.backend.server.ProcessDefinitionServiceImpl
+[0m[0m00:12:30,074 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.pr.backend.server.ProcessVariablesServiceImpl
+[0m[0m00:12:30,151 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @ApplicationScoped @Service class org.kie.workbench.common.screens.social.hp.config.SocialConfigurationServiceImpl
+[0m[0m00:12:30,163 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.guided.template.server.GuidedRuleTemplateEditorServiceImpl
+[0m[0m00:12:30,165 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.services.datamodel.backend.server.IncrementalDataModelServiceImpl
+[0m[0m00:12:30,168 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.screens.search.backend.server.SearchServiceImpl
+[0m[0m00:12:30,189 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.bd.backend.server.DataServiceEntryPointImpl
+[0m[0m00:12:30,191 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.bd.backend.server.KieSessionEntryPointImpl
+[0m[0m00:12:30,194 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.bd.backend.server.DeploymentManagerEntryPointImpl
+[0m[0m00:12:30,201 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.ext.security.server.ServletSecurityAuthenticationService
+[0m[0m00:12:30,239 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.structure.backend.repositories.RepositoryServiceImpl
+[0m[0m00:12:30,242 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.structure.backend.repositories.RepositoryServiceEditorImpl
+[0m[0m00:12:30,243 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.structure.backend.organizationalunit.OrganizationalUnitServiceImpl
+[0m[0m00:12:30,247 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.structure.backend.FileNavigatorServiceImpl
+[0m[0m00:12:30,286 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.m2repo.backend.server.M2RepoServiceImpl
+[0m[0m00:12:30,290 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.scorecardxls.backend.server.ScoreCardXLSServiceImpl
+[0m[0m00:12:30,296 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.guided.dtable.backend.server.GuidedDecisionTableEditorServiceImpl
+[0m[0m00:12:30,297 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.ht.forms.backend.server.PlaceManagerActivityServiceImpl
+[0m[0m00:12:30,298 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.ht.forms.backend.server.FormServiceEntryPointImpl
+[0m[0m00:12:30,303 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.common.services.backend.metadata.MetadataServiceImpl
+[0m[0m00:12:30,306 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.common.services.backend.config.AppConfigServiceImpl
+[0m[0m00:12:30,310 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.common.services.backend.security.KieWorkbenchSecurityServiceImpl
+[0m[0m00:12:30,311 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.common.services.backend.config.ResourceConfigServiceImpl
+[0m[0m00:12:30,320 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.TaskLifeCycleServiceImpl
+[0m[0m00:12:30,321 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.TaskCommentsServiceImpl
+[0m[0m00:12:30,322 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.TaskQueryServiceImpl
+[0m[0m00:12:30,322 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.TaskFormManagementServiceImpl
+[0m[0m00:12:30,323 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.TaskOperationsServiceImpl
+[0m[0m00:12:30,324 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.TaskAuditServiceImpl
+[0m[0m00:12:30,325 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.screens.defaulteditor.backend.server.DefaultEditorServiceImpl
+[0m[0m00:12:30,358 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.backend.server.VFSLockServiceImpl
+[0m[0m00:12:30,359 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.backend.server.WorkbenchServicesImpl
+[0m[0m00:12:30,365 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.backend.server.VFSServicesServerImpl
+[0m[0m00:12:30,369 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.backend.server.plugin.RuntimePluginsServiceServerImpl
+[0m[0m00:12:30,372 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.services.backend.builder.BuildServiceImpl
+[0m[0m00:12:30,373 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.services.backend.enums.EnumDropdownServiceImpl
+[0m[0m00:12:30,374 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.services.backend.rulename.RuleNameServiceImpl
+[0m[0m00:12:30,375 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.services.backend.validation.ValidationServiceImpl
+[0m[0m00:12:30,376 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.services.backend.source.SourceServicesImpl
+[0m[0m00:12:30,377 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.services.backend.security.KieWorkbenchSecurityServiceImpl
+[0m[0m00:12:30,379 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.services.backend.project.ProjectImportsServiceImpl
+[0m[0m00:12:30,380 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.services.backend.kmodule.KModuleServiceImpl
+[0m[0m00:12:30,381 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.services.backend.project.ProjectServiceImpl
+[0m[0m00:12:30,387 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.services.refactoring.backend.server.query.RefactoringQueryServiceImpl
+[0m[0m00:12:30,393 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.guided.scorecard.backend.server.GuidedScoreCardEditorServiceImpl
+[0m[0m00:12:30,401 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.dtablexls.backend.server.DecisionTableXLSServiceImpl
+[0m[0m00:12:30,404 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.workitems.backend.server.WorkItemsEditorServiceImpl
+[0m[0m00:12:30,431 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.workbench.common.screens.server.management.backend.ServerManagementServiceImpl
+[0m[0m00:12:30,433 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.testscenario.backend.server.ScenarioTestEditorServiceImpl
+[0m[0m00:12:30,434 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.testscenario.backend.server.ScenarioRunnerService
+[0m[0m00:12:30,436 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.ext.editor.commons.backend.service.DeleteServiceImpl
+[0m[0m00:12:30,437 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.ext.editor.commons.backend.service.RenameServiceImpl
+[0m[0m00:12:30,438 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.ext.editor.commons.backend.service.ValidationServiceImpl
+[0m[0m00:12:30,439 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.ext.editor.commons.backend.version.VersionServiceImpl
+[0m[0m00:12:30,439 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.uberfire.ext.editor.commons.backend.service.CopyServiceImpl
+[0m[0m00:12:30,461 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.common.services.project.backend.server.POMServiceImpl
+[0m[0m00:12:30,464 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.drools.workbench.screens.guided.rule.backend.server.GuidedRuleEditorServiceImpl
+[0m[0m00:12:30,468 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.guvnor.inbox.backend.server.InboxServiceImpl
+[0m[0m00:12:30,495 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @ApplicationScoped @Service class org.dashbuilder.dataset.backend.DataSetDefVfsServicesImpl
+[0m[0m00:12:30,496 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @ApplicationScoped @Service class org.dashbuilder.dataset.backend.DataSetDefServicesImpl
+[0m[0m00:12:30,498 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @ApplicationScoped @Service class org.dashbuilder.dataset.backend.DataSetExportServicesImpl
+[0m[0m00:12:30,499 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @ApplicationScoped @Service class org.dashbuilder.dataset.backend.DataSetLookupServicesImpl
+[0m[0m00:12:30,500 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.uberfire.social.activities.server.SocialActivitiesServer
+[0m[0m00:12:30,506 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.uberfire.social.activities.repository.SocialTimeLineRepository
+[0m[0m00:12:30,508 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.uberfire.social.activities.drools.SocialTimelineRulesQuery
+[0m[0m00:12:30,511 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.uberfire.social.activities.repository.SocialUserRepository
+[0m[0m00:12:30,512 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.uberfire.social.activities.repository.SocialUserTimelinePagedRepository
+[0m[0m00:12:30,513 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.uberfire.social.activities.repository.SocialTypeTimelinePagedRepository
+[0m[0m00:12:30,513 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.uberfire.social.activities.server.SocialUserService
+[0m[0m00:12:30,518 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.uberfire.social.activities.adapters.SocialRouter
+[0m[0m00:12:30,520 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-7) discovered errai service: [BackedAnnotatedType] public @Service @ApplicationScoped class org.kie.uberfire.social.activities.repository.SocialEventTypeRepository
+[0m[0m00:12:31,292 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-7) Found kmodule: vfs:/content/kie-drools-wb.war/WEB-INF/lib/kie-uberfire-social-activities-backend-6.3.0.Final.jar/META-INF/kmodule.xml
+[0m[0m00:12:31,294 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-7) Virtual file physical path = /Users/dev/git/wildfly-8.1.0.Final/standalone/tmp/vfs/deployment/deploymentc31824a9b0734721/kie-uberfire-social-activities-backend-6.3.0.Final.jar-a7e73ef480f4352e/kie-uberfire-social-activities-backend-6.3.0.Final.jar
+[0m[0m00:12:31,484 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (MSC service thread 1-7) KieModule was added: ZipKieModule[releaseId=org.kie.uberfire:kie-uberfire-social-activities-backend:6.3.0.Final,file=/Users/dev/git/wildfly-8.1.0.Final/standalone/tmp/vfs/deployment/deploymentc31824a9b0734721/kie-uberfire-social-activities-backend-6.3.0.Final.jar-a7e73ef480f4352e/kie-uberfire-social-activities-backend-6.3.0.Final.jar]
+[0m[0m00:12:31,484 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-7) Found kmodule: vfs:/content/kie-drools-wb.war/WEB-INF/lib/guvnor-asset-mgmt-project-6.3.0.Final.jar/META-INF/kmodule.xml
+[0m[0m00:12:31,485 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-7) Virtual file physical path = /Users/dev/git/wildfly-8.1.0.Final/standalone/tmp/vfs/deployment/deploymentc31824a9b0734721/guvnor-asset-mgmt-project-6.3.0.Final.jar-44d26ef7a28d3ee6/guvnor-asset-mgmt-project-6.3.0.Final.jar
+[0m[0m00:12:31,489 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (MSC service thread 1-7) KieModule was added: ZipKieModule[releaseId=org.guvnor:guvnor-asset-mgmt-project:6.3.0.Final,file=/Users/dev/git/wildfly-8.1.0.Final/standalone/tmp/vfs/deployment/deploymentc31824a9b0734721/guvnor-asset-mgmt-project-6.3.0.Final.jar-44d26ef7a28d3ee6/guvnor-asset-mgmt-project-6.3.0.Final.jar]
+[0m[0m00:12:31,489 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-7) Found kmodule: vfs:/content/kie-drools-wb.war/WEB-INF/lib/drools-pmml-6.3.0.Final.jar/META-INF/kmodule.xml
+[0m[0m00:12:31,490 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-7) Virtual file physical path = /Users/dev/git/wildfly-8.1.0.Final/standalone/tmp/vfs/deployment/deploymentc31824a9b0734721/drools-pmml-6.3.0.Final.jar-c979c9c86de07e36/drools-pmml-6.3.0.Final.jar
+[0m[0m00:12:31,524 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (MSC service thread 1-7) KieModule was added: ZipKieModule[releaseId=org.drools:drools-pmml:6.3.0.Final,file=/Users/dev/git/wildfly-8.1.0.Final/standalone/tmp/vfs/deployment/deploymentc31824a9b0734721/drools-pmml-6.3.0.Final.jar-c979c9c86de07e36/drools-pmml-6.3.0.Final.jar]
+[0m[0m00:12:31,796 INFO  [org.jboss.errai.common.metadata.MetaDataScanner] (Thread-87) added class scanning extensions: org.jboss.errai.common.metadata.JbossVFsTypeHandler
+[0m[0m00:12:33,308 INFO  [org.jboss.errai.reflections.Reflections] (Thread-87) Reflections took 1506 ms to scan 116 urls, producing 2944 keys and 18163 values [using 2 cores]
+[0m[33m00:12:35,018 WARN  [org.jboss.weld.Validator] (weld-worker-5) WELD-001473: javax.enterprise.inject.spi.Bean implementation org.uberfire.backend.server.cdi.SystemConfigProducer$2@4ab127a1 declared a normal scope but does not implement javax.enterprise.inject.spi.PassivationCapable. It won't be possible to inject this bean into a bean with passivating scope (@SessionScoped, @ConversationScoped). This can be fixed by assigning the Bean implementation a unique id by implementing the PassivationCapable interface.
+[0m[0m00:12:35,294 INFO  [org.jbpm.executor.impl.ExecutorImpl] (MSC service thread 1-7) Starting Executor Component ...
+ 	 - Thread Pool Size: 1
+ 	 - Interval: 3 SECONDS 
+ 	 - Retries per Request: 3
+
+[0m[33m00:12:35,300 WARN  [org.jbpm.executor.impl.ExecutorImpl] (MSC service thread 1-7) Disabling JMS support in executor because: unable to initialize JMS configuration for executor due to queue/KIE.EXECUTOR -- service jboss.naming.context.java.queue."KIE.EXECUTOR"
+[0m[0m00:12:35,502 INFO  [org.apache.sshd.common.util.SecurityUtils] (MSC service thread 1-7) BouncyCastle not registered, using the default JCE provider
+[0m[33m00:12:36,046 WARN  [org.jboss.weld.Bean] (MSC service thread 1-7) WELD-000018: Executing producer field or method [BackedAnnotatedMethod] @Produces @Named public org.guvnor.structure.backend.repositories.RepositoryFactoryImpl.systemRepository() on incomplete declaring bean Managed Bean [class org.guvnor.structure.backend.repositories.RepositoryFactoryImpl] with qualifiers [@Any @Default] due to circular injection
+[0m[0m00:12:45,481 INFO  [org.uberfire.ext.metadata.io.BatchIndex] (Thread-93) Starting indexing of default://master@uf-playground/ ...
+[0m[0m00:12:45,610 INFO  [org.uberfire.ext.metadata.io.BatchIndex] (Thread-95) Starting indexing of default://master@datasets/ ...
+[0m[0m00:12:45,859 INFO  [org.guvnor.m2repo.backend.server.GuvnorM2Repository] (MSC service thread 1-7) Maven Repository root set to: repositories/kie
+[0m[0m00:12:45,859 INFO  [org.guvnor.m2repo.backend.server.GuvnorM2Repository] (MSC service thread 1-7) Creating Maven Repository root: repositories/kie
+[0m[33m00:12:45,887 WARN  [org.kie.scanner.embedder.MavenSettings] (MSC service thread 1-7) Environment variable M2_HOME is not set
+[0m[0m00:12:46,092 INFO  [org.uberfire.ext.metadata.io.BatchIndex] (Thread-95) Completed indexing of default://master@datasets/
+[0m[0m00:12:46,210 INFO  [org.jbpm.console.ng.asset.backend.server.AssetMgmtDeploymentUnitProvider] (MSC service thread 1-7) Found guvnor asset management deployment unit org.guvnor:guvnor-asset-mgmt-project:6.3.0.Final [strategy=SINGLETON] attempting to deploy it
+[0m[31m00:12:46,349 ERROR [stderr] (MSC service thread 1-7) ScriptEngineManager providers.next(): javax.script.ScriptEngineFactory: Provider com.sun.script.javascript.RhinoScriptEngineFactory not found
+[0m[0m00:12:47,003 INFO  [org.kie.scanner.embedder.MavenEmbedderUtils] (MSC service thread 1-7) Not in OSGi: using plexus based maven parser
+[0m[0m00:12:47,428 INFO  [org.kie.scanner.embedder.MavenEmbedderUtils] (Thread-93) Not in OSGi: using plexus based maven parser
+[0m[0m00:12:50,319 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (Thread-93) KieModule was added: MemoryKieModule[releaseId=mortgages:mortgages:0.0.1]
+[0m[0m00:12:52,128 INFO  [org.uberfire.ext.metadata.io.BatchIndex] (Thread-93) Completed indexing of default://master@uf-playground/
+[0m[0m00:13:29,288 INFO  [org.apache.http.impl.client.DefaultHttpClient] (MSC service thread 1-7) I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://35.200.146.62: The target server failed to respond
+[0m[0m00:13:29,289 INFO  [org.apache.http.impl.client.DefaultHttpClient] (MSC service thread 1-7) Retrying request to {}->http://35.200.146.62
+[0m[0m00:13:49,112 INFO  [org.jbpm.kie.services.impl.store.DeploymentSynchronizer] (MSC service thread 1-7) Deployment unit org.guvnor:guvnor-asset-mgmt-project:6.3.0.Final stored successfully
+[0m[0m00:13:49,133 INFO  [org.guvnor.common.services.backend.config.DefaultApplicationPreferencesLoader] (MSC service thread 1-7) Setting preference 'type' to 'kjar'.
+[0m[0m00:13:49,134 INFO  [org.guvnor.common.services.backend.config.DefaultApplicationPreferencesLoader] (MSC service thread 1-7) Setting preference 'drools.defaultlanguage' to 'en'.
+[0m[0m00:13:49,134 INFO  [org.guvnor.common.services.backend.config.DefaultApplicationPreferencesLoader] (MSC service thread 1-7) Setting preference 'build.enable-incremental' to 'true'.
+[0m[0m00:13:49,134 INFO  [org.guvnor.common.services.backend.config.DefaultApplicationPreferencesLoader] (MSC service thread 1-7) Setting preference 'support.runtime.deploy' to 'false'.
+[0m[0m00:13:49,134 INFO  [org.guvnor.common.services.backend.config.DefaultApplicationPreferencesLoader] (MSC service thread 1-7) Setting preference 'drools.dateformat' to 'dd-MMM-yyyy'.
+[0m[0m00:13:49,134 INFO  [org.guvnor.common.services.backend.config.DefaultApplicationPreferencesLoader] (MSC service thread 1-7) Setting preference 'drools.datetimeformat' to 'dd-MMM-yyyy hh:mm:ss'.
+[0m[0m00:13:49,134 INFO  [org.guvnor.common.services.backend.config.DefaultApplicationPreferencesLoader] (MSC service thread 1-7) Setting preference 'rule-modeller-onlyShowDSLStatements' to 'false'.
+[0m[0m00:13:49,135 INFO  [org.guvnor.common.services.backend.config.DefaultApplicationPreferencesLoader] (MSC service thread 1-7) Setting preference 'drools.defaultcountry' to 'US'.
+[0m[33m00:13:49,337 WARN  [org.jboss.weld.Bean] (MSC service thread 1-7) WELD-000018: Executing producer field or method [BackedAnnotatedMethod] @Produces @Named public org.kie.uberfire.social.activities.server.SocialUserPersistenceProducer.socialUserPersistenceAPI() on incomplete declaring bean Managed Bean [class org.kie.uberfire.social.activities.server.SocialUserPersistenceProducer] with qualifiers [@Any @Default] due to circular injection
+[0m[0m00:13:49,804 INFO  [org.dashbuilder.Bootstrap] (MSC service thread 1-7) Dashbuilder initialized
+[0m[0m00:13:49,988 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-108) Incremental build request received for: default://master@datasets/definitions/gitContributors.dset (added).
+[0m[0m00:13:50,000 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-108) Incremental build request received for: default://master@datasets/definitions/jbpmHumanTasks.dset (added).
+[0m[0m00:13:50,015 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-108) Incremental build request received for: default://master@datasets/definitions/jbpmHumanTasksWithUser.dset (added).
+[0m[0m00:13:50,041 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-108) Incremental build request received for: default://master@datasets/definitions/jbpmHumanTasksWithAdmin.dset (added).
+[0m[0m00:13:50,051 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-108) Incremental build request received for: default://master@datasets/definitions/jbpmProcessInstancesWithVariables.dset (added).
+[0m[0m00:13:50,230 INFO  [org.uberfire.ext.metadata.io.BatchIndex] (Thread-93) Starting indexing of default://master@plugins/ ...
+[0m[0m00:13:50,242 INFO  [org.uberfire.ext.metadata.io.BatchIndex] (Thread-93) Completed indexing of default://master@plugins/
+[0m[0m00:13:50,303 INFO  [org.jboss.errai.bus.server.cluster.noop.NoopClusteringProvider] (MSC service thread 1-2) clustering support not configured.
+[0m[0m00:13:50,317 INFO  [org.jboss.errai.bus.server.service.bootstrap.OrderedBootstrap] (MSC service thread 1-2) starting errai bus ...
+[0m[0m00:13:50,318 INFO  [org.jboss.errai.bus.server.service.bootstrap.DefaultComponents] (MSC service thread 1-2) using dispatcher implementation: org.jboss.errai.bus.server.SimpleDispatcher
+[0m[0m00:13:50,322 INFO  [org.jboss.errai.bus.server.service.bootstrap.DefaultComponents] (MSC service thread 1-2) using session provider implementation: org.jboss.errai.bus.server.HttpSessionProvider
+[0m[0m00:13:50,350 INFO  [org.jboss.errai.bus.server.service.bootstrap.LoadExtensions] (MSC service thread 1-2) searching for errai extensions ...
+[0m[0m00:13:50,368 INFO  [org.jboss.errai.bus.server.service.bootstrap.OrderedBootstrap] (MSC service thread 1-2) errai bus started.
+[0m[0m00:13:50,378 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017534: Registered web context: /kie-drools-wb
+[0m[0m00:13:50,426 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "kie-drools-wb.war" (runtime-name : "kie-drools-wb.war")
+[0m[0m00:13:50,464 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://0.0.0.0:9990/management
+[0m[0m00:13:50,465 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://0.0.0.0:9990
+[0m[0m00:13:50,466 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 98465ms - Started 722 of 773 services (102 services are lazy, passive or on-demand)
+[0mstandalone.sh: line 258: 13012 Killed: 9               "java" -D"[Standalone]" -server -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true "-Dorg.jboss.boot.log.file=/Users/dev/git/wildfly-8.1.0.Final/standalone/log/server.log" "-Dlogging.configuration=file:/Users/dev/git/wildfly-8.1.0.Final/standalone/configuration/logging.properties" -jar "/Users/dev/git/wildfly-8.1.0.Final/jboss-modules.jar" -mp "/Users/dev/git/wildfly-8.1.0.Final/modules" org.jboss.as.standalone -Djboss.home.dir="/Users/dev/git/wildfly-8.1.0.Final" -Djboss.server.base.dir="/Users/dev/git/wildfly-8.1.0.Final/standalone" "--server-config=standalone-full.xml" "-b=0.0.0.0" "-bmanagement=0.0.0.0"

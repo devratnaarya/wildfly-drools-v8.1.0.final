@@ -1,0 +1,81 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>lif-core</artifactId>
+	<version>0.0.3-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>lif-core</name>
+	<url>http://maven.apache.org</url>
+
+	<parent>
+		<groupId>in.lifcare</groupId>
+  		<artifactId>parent-pom</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<dependencies>
+			<dependency>
+		       <groupId>com.netflix.hystrix</groupId>
+		       <artifactId>hystrix-core</artifactId>
+		       <version>1.5.1</version>
+		   </dependency>
+			<dependency>
+				<groupId>org.springframework.social</groupId>
+				<artifactId>spring-social-core</artifactId>
+			</dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-commons</artifactId>
+        </dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-commons-core -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-commons-core</artifactId>
+			<version>1.0.0.RELEASE</version>
+		</dependency>
+		<dependency>
+		    	<groupId>net.sf.ehcache</groupId>
+		    	<artifactId>ehcache</artifactId>
+	    	</dependency>
+	    	<!-- Google Cloud Storage Dependency -->
+		<dependency>
+		  <groupId>com.google.cloud</groupId>
+		  <artifactId>google-cloud-storage</artifactId>
+		  <version>1.53.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+		    <groupId>commons-io</groupId>
+		    <artifactId>commons-io</artifactId>
+		    <version>2.6</version>
+		</dependency>
+	</dependencies>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<excludes>
+						<exclude>**/App.*</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<!-- or whatever version you use -->
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

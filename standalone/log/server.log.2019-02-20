@@ -1,0 +1,1325 @@
+2019-02-20 00:02:12,008 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 00:02:13,170 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session b2ef930d-346f-11e9-b192-735a2833cda3
+2019-02-20 00:02:13,170 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session b2ef930d-346f-11e9-b192-735a2833cda3
+2019-02-20 00:02:13,172 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 00:02:13,180 WARN  [org.hornetq.jms.server] (Thread-142 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 00:02:13,180 WARN  [org.hornetq.jms.server] (Thread-140 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 01:51:26,003 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 01:51:27,095 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session b46f8a13-3474-11e9-b192-735a2833cda3
+2019-02-20 01:51:27,096 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session b46f8a13-3474-11e9-b192-735a2833cda3
+2019-02-20 01:51:27,099 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 01:51:27,111 WARN  [org.hornetq.jms.server] (Thread-157 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 01:51:27,114 WARN  [org.hornetq.jms.server] (Thread-161 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 06:05:08,564 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 06:05:08,700 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session b82f1c9b-3494-11e9-b192-735a2833cda3
+2019-02-20 06:05:08,904 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session b82f1c9b-3494-11e9-b192-735a2833cda3
+2019-02-20 06:05:08,908 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 06:05:08,935 WARN  [org.hornetq.jms.server] (Thread-157 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 06:05:08,970 WARN  [org.hornetq.jms.server] (Thread-161 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 10:23:59,011 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 10:24:00,099 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session 935a6a02-34bd-11e9-b192-735a2833cda3
+2019-02-20 10:24:00,099 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session 935a6a02-34bd-11e9-b192-735a2833cda3
+2019-02-20 10:24:00,100 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 10:24:00,105 WARN  [org.hornetq.jms.server] (Thread-186 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 10:24:00,126 WARN  [org.hornetq.jms.server] (Thread-187 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 11:21:57,508 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 11:21:58,094 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session a4f0c6a8-34d2-11e9-b192-735a2833cda3
+2019-02-20 11:21:58,106 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session a4f0c6a8-34d2-11e9-b192-735a2833cda3
+2019-02-20 11:21:58,107 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 11:21:58,112 WARN  [org.hornetq.jms.server] (Thread-183 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 11:21:58,114 WARN  [org.hornetq.jms.server] (Thread-186 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 11:40:41,005 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 11:40:42,097 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 11:40:42,098 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session e3c93a0f-34d3-11e9-b192-735a2833cda3
+2019-02-20 11:40:42,099 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session e3c93a0f-34d3-11e9-b192-735a2833cda3
+2019-02-20 11:40:42,102 WARN  [org.hornetq.jms.server] (Thread-195 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 11:40:42,111 WARN  [org.hornetq.jms.server] (Thread-196 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 15:44:11,276 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 15:44:12,097 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session 74f8f917-34d6-11e9-b192-735a2833cda3
+2019-02-20 15:44:12,098 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session 74f8f917-34d6-11e9-b192-735a2833cda3
+2019-02-20 15:44:12,100 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 15:44:12,115 WARN  [org.hornetq.jms.server] (Thread-242 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 15:44:12,114 WARN  [org.hornetq.jms.server] (Thread-241 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 17:21:43,006 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 17:21:44,099 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session 4cd100fe-34f8-11e9-b192-735a2833cda3
+2019-02-20 17:21:44,124 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session 4cd100fe-34f8-11e9-b192-735a2833cda3
+2019-02-20 17:21:44,130 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 17:21:44,139 WARN  [org.hornetq.jms.server] (Thread-266 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 17:21:44,139 WARN  [org.hornetq.jms.server] (Thread-267 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 18:57:05,003 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 18:57:06,097 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 18:57:06,100 WARN  [org.hornetq.jms.server] (Thread-283 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 18:57:06,100 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session 10ea5895-3506-11e9-b192-735a2833cda3
+2019-02-20 18:57:06,101 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session 10ea5895-3506-11e9-b192-735a2833cda3
+2019-02-20 18:57:06,141 WARN  [org.hornetq.jms.server] (Thread-283 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 19:13:58,003 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 19:13:59,097 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 19:13:59,097 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session 508d035b-3513-11e9-b192-735a2833cda3
+2019-02-20 19:13:59,097 WARN  [org.hornetq.jms.server] (Thread-285 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 19:13:59,103 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session 508d035b-3513-11e9-b192-735a2833cda3
+2019-02-20 19:13:59,112 WARN  [org.hornetq.jms.server] (Thread-283 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 20:51:26,094 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 20:51:26,103 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session 94752100-3515-11e9-b192-735a2833cda3
+2019-02-20 20:51:26,104 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session 94752100-3515-11e9-b192-735a2833cda3
+2019-02-20 20:51:26,105 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 20:51:26,114 WARN  [org.hornetq.jms.server] (Thread-304 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 20:51:26,142 WARN  [org.hornetq.jms.server] (Thread-307 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 22:47:24,003 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 22:47:25,090 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 22:47:25,092 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session 54bb9daa-3523-11e9-b192-735a2833cda3
+2019-02-20 22:47:25,092 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session 54bb9daa-3523-11e9-b192-735a2833cda3
+2019-02-20 22:47:25,092 WARN  [org.hornetq.jms.server] (Thread-340 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 22:47:25,106 WARN  [org.hornetq.jms.server] (Thread-341 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:03:07,003 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 23:03:07,003 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session 6f4ecc01-3533-11e9-b192-735a2833cda3
+2019-02-20 23:03:07,012 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session 6f4ecc01-3533-11e9-b192-735a2833cda3
+2019-02-20 23:03:07,012 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2019-02-20 23:03:08,097 WARN  [org.hornetq.jms.server] (Thread-339 (HornetQ-client-global-threads-2030654946)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=f1729810-3375-11e9-b192-735a2833cda3, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:03:08,118 WARN  [org.hornetq.jms.server] (Thread-340 (HornetQ-client-global-threads-2030654946)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQNotConnectedException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:427) [hornetq-core-client-2.4.1.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.4.1.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:104) [hornetq-core-client-2.4.1.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:40:09,718 INFO  [org.kie.scanner.embedder.MavenEmbedderUtils] (default task-6) Not in OSGi: using plexus based maven parser
+2019-02-20 23:40:17,288 ERROR [org.drools.compiler.kie.builder.impl.AbstractKieModule] (default task-6) Unable to build KieBaseModel:defaultKieBase
+Unable to resolve ObjectType 'Order' : [Rule name='min_buy']
+
+Unable to resolve ObjectType 'MinBuyCategory' : [Rule name='min_buy']
+
+Unable to resolve ObjectType 'CouponResult' : [Rule name='min_buy']
+
+Unable to resolve ObjectType 'Order' : [Rule name='defaultrule']
+
+Field Reader does not exist for declaration '$orderItemDiscount' in 'predicate 'itemDiscountPercentage > 0'' in the rule 'item_per_discount' : [Rule name='item_per_discount']
+
+Unable to Analyse Expression itemDiscountPercentage > 0:
+[Error: unable to resolve method using strict-mode: in.lifcare.coupon.model.Coupon.itemDiscountPercentage()]
+[Near : {... itemDiscountPercentage > 0 ....}]
+             ^
+[Line: 16, Column: 12] : [Rule name='item_per_discount']
+
+Unable to resolve ObjectType 'Order' : [Rule name='item_per_discount']
+
+Unable to resolve ObjectType 'CouponResult' : [Rule name='item_per_discount']
+
+Unable to resolve ObjectType 'OrderItem' : [Rule name='item_per_discount']
+
+Field Reader does not exist for declaration '$discountPercentage' in 'predicate 'discountPercentage > 0'' in the rule 'order_per_discount' : [Rule name='order_per_discount']
+
+Unable to Analyse Expression discountPercentage > 0:
+[Error: unable to resolve method using strict-mode: in.lifcare.coupon.model.Coupon.discountPercentage()]
+[Near : {... discountPercentage > 0 ....}]
+             ^
+[Line: 49, Column: 12] : [Rule name='order_per_discount']
+
+Unable to resolve ObjectType 'Order' : [Rule name='order_per_discount']
+
+Unable to resolve ObjectType 'CouponResult' : [Rule name='order_per_discount']
+
+Unable to resolve ObjectType 'OrderItem' : [Rule name='order_per_discount']
+
+Field Reader does not exist for declaration '$discountAmount' in 'predicate 'discountAmount > 0'' in the rule 'order_flat_discount' : [Rule name='order_flat_discount']
+
+Unable to Analyse Expression discountAmount > 0:
+[Error: unable to resolve method using strict-mode: in.lifcare.coupon.model.Coupon.discountAmount()]
+[Near : {... discountAmount > 0 ....}]
+             ^
+[Line: 84, Column: 12] : [Rule name='order_flat_discount']
+
+Unable to resolve ObjectType 'Order' : [Rule name='order_flat_discount']
+
+Unable to resolve ObjectType 'CouponResult' : [Rule name='order_flat_discount']
+
+[ function applyDiscount (line:10): Unable to resolve type Order while building function. java.lang.ClassNotFoundException: Unable to find class 'Order' ]
+[ function getAdditionalDiscountPercentgetAdditionalDiscountPercent (line:42): Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+getAdditionalDiscountPercent (line:46): Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+getAdditionalDiscountPercent (line:48): Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+getAdditionalDiscountPercent (line:50): Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+getAdditionalDiscountPercent (line:52): Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+getAdditionalDiscountPercent (line:56): The import in.lifcare.drools.ApplyDiscount.applyDiscount cannot be resolved
+ ]
+[ function applyDiscountapplyDiscount (line:-11): Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+applyDiscount (line:-7): Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+applyDiscount (line:-5): Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+applyDiscount (line:-3): Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+applyDiscount (line:-1): Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+applyDiscount (line:9): Order cannot be resolved to a type
+applyDiscount (line:9): Order cannot be resolved to a type
+applyDiscount (line:14): OrderItem cannot be resolved to a type
+applyDiscount (line:19): OrderItem cannot be resolved to a type
+applyDiscount (line:19): OrderItem cannot be resolved to a type
+ ]
+Rule Compilation error : [Rule name='defaultrule']
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:80) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:150) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:194) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:232) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:269) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:360) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:450) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_defaultrule2097139225.java (8:825) : $orderSource cannot be resolved to a variable
+	in/lifcare/drools/Rule_defaultrule2097139225.java (9:871) : order cannot be resolved to a variable
+	in/lifcare/drools/Rule_defaultrule2097139225.java (11:944) : order cannot be resolved
+	in/lifcare/drools/Rule_defaultrule2097139225.java (12:1045) : $orderSource cannot be resolved to a variable
+	in/lifcare/drools/Rule_defaultrule2097139225.java (14:1148) : order cannot be resolved to a variable
+	in/lifcare/drools/Rule_defaultrule2097139225.java (16:1273) : order cannot be resolved to a variable
+
+Rule Compilation error : [Rule name='item_per_discount']
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:80) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:150) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:194) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:232) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:269) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:360) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:450) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (8:735) : $totalMrp cannot be resolved to a variable
+	in/lifcare/drools/Rule_item_per_discount460611177.java (12:986) : in.lifcare.coupon.model.Coupon cannot be resolved to a type
+	in/lifcare/drools/Rule_item_per_discount460611177.java (15:1264) : OrderItem cannot be resolved to a type
+	in/lifcare/drools/Rule_item_per_discount460611177.java (15:1280) : OrderItem cannot be resolved to a type
+	in/lifcare/drools/Rule_item_per_discount460611177.java (21:1526) : order cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (21:1550) : order cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (22:1584) : order cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (23:1641) : order cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (24:1706) : order cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (26:1848) : order cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (27:1901) : $totalMrp cannot be resolved to a variable
+	in/lifcare/drools/Rule_item_per_discount460611177.java (32:2244) : order cannot be resolved to a variable
+
+Rule Compilation error : [Rule name='order_flat_discount']
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:80) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:150) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:194) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:232) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:269) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:360) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:450) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (8:737) : $totalMrp cannot be resolved to a variable
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (12:908) : in.lifcare.coupon.model.Coupon cannot be resolved to a type
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (13:1093) : order cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (14:1150) : order cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (14:1174) : $discountAmount cannot be resolved to a variable
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (15:1204) : order cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (16:1269) : order cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (17:1344) : order cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (17:1368) : order cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (23:1784) : order cannot be resolved to a variable
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (25:1864) : $totalMrp cannot be resolved to a variable
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (26:1907) : couponresult cannot be resolved to a variable
+
+Rule Compilation error : [Rule name='order_per_discount']
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:80) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:150) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:194) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:232) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:269) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:360) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:450) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (8:737) : $totalMrp cannot be resolved to a variable
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (12:908) : in.lifcare.coupon.model.Coupon cannot be resolved to a type
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (15:1186) : OrderItem cannot be resolved to a type
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (15:1202) : OrderItem cannot be resolved to a type
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (16:1271) : $discountPercentage cannot be resolved to a variable
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (21:1466) : order cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (21:1490) : order cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (22:1524) : order cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (23:1581) : order cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (24:1646) : order cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (26:1788) : order cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (34:2119) : order cannot be resolved to a variable
+
+Rule Compilation error : [Rule name='min_buy']
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:80) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:150) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:194) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:232) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:269) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:360) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:450) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_min_buy1044062606.java (8:702) : $totalMrp cannot be resolved to a variable
+	in/lifcare/drools/Rule_min_buy1044062606.java (8:714) : $minBuy cannot be resolved to a variable
+	in/lifcare/drools/Rule_min_buy1044062606.java (14:1042) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/drools/Rule_min_buy1044062606.java (14:1065) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/drools/Rule_min_buy1044062606.java (15:1123) : $category cannot be resolved
+	in/lifcare/drools/Rule_min_buy1044062606.java (20:1288) : couponResult cannot be resolved
+	in/lifcare/drools/Rule_min_buy1044062606.java (21:1328) : couponResult cannot be resolved
+	in/lifcare/drools/Rule_min_buy1044062606.java (21:1402) : $minBuy cannot be resolved to a variable
+
+Error importing : 'in.lifcare.coupon.model.CouponResult'
+Error importing : 'in.lifcare.coupon.model.CouponResult'
+Error importing : 'in.lifcare.coupon.model.OrderItem'
+Error importing : 'in.lifcare.coupon.model.CouponResult'
+Error importing : 'in.lifcare.coupon.model.Order'
+Error importing : 'in.lifcare.coupon.order.model.Order'
+Error importing : 'in.lifcare.drools.ApplyDiscount.applyDiscount'
+Error importing : 'in.lifcare.drools.GetAdditionalDiscountPercent.getAdditionalDiscountPercent'
+
+2019-02-20 23:40:23,595 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) Incremental build request received for: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/min_buy.drl (updated).
+2019-02-20 23:40:23,712 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (EJB default - 10) Incremental build request being processed: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/min_buy.drl (updated).
+2019-02-20 23:43:35,360 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) Incremental build request received for: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/min_buy.drl (updated).
+2019-02-20 23:43:35,465 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (EJB default - 1) Incremental build request being processed: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/min_buy.drl (updated).
+2019-02-20 23:43:38,284 INFO  [org.kie.scanner.embedder.MavenEmbedderUtils] (default task-24) Not in OSGi: using plexus based maven parser
+2019-02-20 23:43:41,785 ERROR [org.drools.compiler.kie.builder.impl.AbstractKieModule] (default task-24) Unable to build KieBaseModel:defaultKieBase
+Unable to resolve ObjectType 'MinBuyCategory' : [Rule name='min_buy']
+
+[ function getAdditionalDiscountPercentgetAdditionalDiscountPercent (line:36): Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+getAdditionalDiscountPercent (line:42): Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+getAdditionalDiscountPercent (line:46): Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+getAdditionalDiscountPercent (line:48): Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+getAdditionalDiscountPercent (line:50): Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+getAdditionalDiscountPercent (line:52): Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+getAdditionalDiscountPercent (line:56): The import in.lifcare.drools.ApplyDiscount.applyDiscount cannot be resolved
+ ]
+[ function applyDiscountapplyDiscount (line:-17): Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+applyDiscount (line:-11): Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+applyDiscount (line:-7): Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+applyDiscount (line:-5): Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+applyDiscount (line:-3): Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+applyDiscount (line:-1): Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+applyDiscount (line:9): Order cannot be resolved to a type
+applyDiscount (line:9): Order cannot be resolved to a type
+applyDiscount (line:14): OrderItem cannot be resolved to a type
+applyDiscount (line:19): OrderItem cannot be resolved to a type
+applyDiscount (line:19): OrderItem cannot be resolved to a type
+ ]
+Rule Compilation error : [Rule name='defaultrule']
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:34) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:129) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:199) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:243) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:281) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:318) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:409) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:499) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_defaultrule2097139225.java (6:799) : in.lifcare.coupon.model.Order cannot be resolved to a type
+	in/lifcare/drools/Rule_defaultrule2097139225.java (12:1248) : The method getAdditionalDiscountPercent(String) is undefined for the type Rule_defaultrule2097139225
+
+Rule Compilation error : [Rule name='item_per_discount']
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:34) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:129) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:199) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:243) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:281) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:318) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:409) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:499) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (12:1110) : in.lifcare.coupon.model.Coupon cannot be resolved to a type
+	in/lifcare/drools/Rule_item_per_discount460611177.java (12:1204) : in.lifcare.coupon.model.Order cannot be resolved to a type
+	in/lifcare/drools/Rule_item_per_discount460611177.java (15:1479) : OrderItem cannot be resolved to a type
+	in/lifcare/drools/Rule_item_per_discount460611177.java (15:1495) : OrderItem cannot be resolved to a type
+
+Rule Compilation error : [Rule name='order_flat_discount']
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:34) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:129) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:199) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:243) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:281) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:318) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:409) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:499) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (12:1119) : in.lifcare.coupon.model.Coupon cannot be resolved to a type
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (12:1213) : in.lifcare.coupon.model.CouponResult cannot be resolved to a type
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (12:1325) : in.lifcare.coupon.model.Order cannot be resolved to a type
+
+Rule Compilation error : [Rule name='order_per_discount']
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:34) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:129) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:199) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:243) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:281) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:318) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:409) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:499) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (12:1061) : in.lifcare.coupon.model.Coupon cannot be resolved to a type
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (12:1155) : in.lifcare.coupon.model.Order cannot be resolved to a type
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (15:1430) : OrderItem cannot be resolved to a type
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (15:1446) : OrderItem cannot be resolved to a type
+
+Rule Compilation error : [Rule name='min_buy']
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:34) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:129) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:199) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:243) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:281) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:318) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:409) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:499) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_min_buy1044062606.java (8:780) : $minBuy cannot be resolved to a variable
+	in/lifcare/drools/Rule_min_buy1044062606.java (12:954) : in.lifcare.coupon.model.CouponResult cannot be resolved to a type
+	in/lifcare/drools/Rule_min_buy1044062606.java (14:1220) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/drools/Rule_min_buy1044062606.java (14:1243) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/drools/Rule_min_buy1044062606.java (15:1301) : $category cannot be resolved
+	in/lifcare/drools/Rule_min_buy1044062606.java (21:1580) : $minBuy cannot be resolved to a variable
+
+Error importing : 'in.lifcare.coupon.rule.model.CouponResult'
+Error importing : 'in.lifcare.coupon.order.model.Order'
+Error importing : 'in.lifcare.drools.ApplyDiscount.applyDiscount'
+Error importing : 'in.lifcare.drools.GetAdditionalDiscountPercent.getAdditionalDiscountPercent'
+
+2019-02-20 23:44:41,688 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) Incremental build request received for: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/min_buy.drl (updated).
+2019-02-20 23:44:41,783 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (EJB default - 3) Incremental build request being processed: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/min_buy.drl (updated).
+2019-02-20 23:44:43,720 INFO  [org.kie.scanner.embedder.MavenEmbedderUtils] (default task-32) Not in OSGi: using plexus based maven parser
+2019-02-20 23:44:45,883 ERROR [org.drools.compiler.kie.builder.impl.AbstractKieModule] (default task-32) Unable to build KieBaseModel:defaultKieBase
+[ function getAdditionalDiscountPercentgetAdditionalDiscountPercent (line:34): Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+getAdditionalDiscountPercent (line:40): Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+getAdditionalDiscountPercent (line:44): Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+getAdditionalDiscountPercent (line:46): Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+getAdditionalDiscountPercent (line:48): Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+getAdditionalDiscountPercent (line:50): Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+getAdditionalDiscountPercent (line:52): Only a type can be imported. in.lifcare.coupon.model.MinBuyCategory resolves to a package
+getAdditionalDiscountPercent (line:56): The import in.lifcare.drools.ApplyDiscount.applyDiscount cannot be resolved
+ ]
+[ function applyDiscountapplyDiscount (line:-19): Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+applyDiscount (line:-13): Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+applyDiscount (line:-9): Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+applyDiscount (line:-7): Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+applyDiscount (line:-5): Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+applyDiscount (line:-3): Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+applyDiscount (line:-1): Only a type can be imported. in.lifcare.coupon.model.MinBuyCategory resolves to a package
+applyDiscount (line:9): Order cannot be resolved to a type
+applyDiscount (line:9): Order cannot be resolved to a type
+applyDiscount (line:14): OrderItem cannot be resolved to a type
+applyDiscount (line:19): OrderItem cannot be resolved to a type
+applyDiscount (line:19): OrderItem cannot be resolved to a type
+ ]
+Rule Compilation error : [Rule name='defaultrule']
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:34) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:129) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:199) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:243) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:281) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:318) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:359) : Only a type can be imported. in.lifcare.coupon.model.MinBuyCategory resolves to a package
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:455) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_defaultrule2097139225.java (2:545) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_defaultrule2097139225.java (6:845) : in.lifcare.coupon.model.Order cannot be resolved to a type
+	in/lifcare/drools/Rule_defaultrule2097139225.java (12:1294) : The method getAdditionalDiscountPercent(String) is undefined for the type Rule_defaultrule2097139225
+
+Rule Compilation error : [Rule name='item_per_discount']
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:34) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:129) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:199) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:243) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:281) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:318) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:359) : Only a type can be imported. in.lifcare.coupon.model.MinBuyCategory resolves to a package
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:455) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (2:545) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_item_per_discount460611177.java (12:1156) : in.lifcare.coupon.model.Coupon cannot be resolved to a type
+	in/lifcare/drools/Rule_item_per_discount460611177.java (12:1250) : in.lifcare.coupon.model.Order cannot be resolved to a type
+	in/lifcare/drools/Rule_item_per_discount460611177.java (15:1525) : OrderItem cannot be resolved to a type
+	in/lifcare/drools/Rule_item_per_discount460611177.java (15:1541) : OrderItem cannot be resolved to a type
+
+Rule Compilation error : [Rule name='order_flat_discount']
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:34) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:129) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:199) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:243) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:281) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:318) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:359) : Only a type can be imported. in.lifcare.coupon.model.MinBuyCategory resolves to a package
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:455) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (2:545) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (12:1165) : in.lifcare.coupon.model.Coupon cannot be resolved to a type
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (12:1259) : in.lifcare.coupon.model.CouponResult cannot be resolved to a type
+	in/lifcare/drools/Rule_order_flat_discount987914499.java (12:1371) : in.lifcare.coupon.model.Order cannot be resolved to a type
+
+Rule Compilation error : [Rule name='order_per_discount']
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:34) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:129) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:199) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:243) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:281) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:318) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:359) : Only a type can be imported. in.lifcare.coupon.model.MinBuyCategory resolves to a package
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:455) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (2:545) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (12:1107) : in.lifcare.coupon.model.Coupon cannot be resolved to a type
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (12:1201) : in.lifcare.coupon.model.Order cannot be resolved to a type
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (15:1476) : OrderItem cannot be resolved to a type
+	in/lifcare/drools/Rule_order_per_discount1580548842.java (15:1492) : OrderItem cannot be resolved to a type
+
+Rule Compilation error : [Rule name='min_buy']
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:34) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:129) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:199) : Only a type can be imported. in.lifcare.coupon.model.CouponResult resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:243) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:281) : Only a type can be imported. in.lifcare.coupon.model.Order resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:318) : Only a type can be imported. in.lifcare.coupon.model.OrderItem resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:359) : Only a type can be imported. in.lifcare.coupon.model.MinBuyCategory resolves to a package
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:455) : The import in.lifcare.drools.GetAdditionalDiscountPercent cannot be resolved
+	in/lifcare/drools/Rule_min_buy1044062606.java (2:545) : The import in.lifcare.drools.ApplyDiscount cannot be resolved
+	in/lifcare/drools/Rule_min_buy1044062606.java (8:826) : $minBuy cannot be resolved to a variable
+	in/lifcare/drools/Rule_min_buy1044062606.java (12:1000) : in.lifcare.coupon.model.CouponResult cannot be resolved to a type
+	in/lifcare/drools/Rule_min_buy1044062606.java (14:1266) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/drools/Rule_min_buy1044062606.java (14:1289) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/drools/Rule_min_buy1044062606.java (15:1347) : $category cannot be resolved
+	in/lifcare/drools/Rule_min_buy1044062606.java (21:1626) : $minBuy cannot be resolved to a variable
+
+Error importing : 'in.lifcare.coupon.rule.model.CouponResult'
+Error importing : 'in.lifcare.coupon.order.model.Order'
+Error importing : 'in.lifcare.drools.ApplyDiscount.applyDiscount'
+Error importing : 'in.lifcare.drools.GetAdditionalDiscountPercent.getAdditionalDiscountPercent'
+
+2019-02-20 23:46:47,468 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) Batch incremental build request received.
+2019-02-20 23:46:47,526 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) - Batch content: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/Default.drl (DELETE).
+2019-02-20 23:46:47,581 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) - Batch content: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/Basic.drl (DELETE).
+2019-02-20 23:46:47,634 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) - Batch content: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/min_buy.drl (DELETE).
+2019-02-20 23:46:47,635 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (EJB default - 7) Batch incremental build request being processed.
+2019-02-20 23:46:49,009 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (EJB default - 7) KieModule was added: MemoryKieModule[releaseId=in.lifcare:coupon:1.0]
+2019-02-20 23:47:26,241 ERROR [org.guvnor.common.services.backend.exceptions.ExceptionUtilities] (default task-77) Exception thrown: null: org.uberfire.java.nio.file.NoSuchFileException
+	at org.uberfire.java.nio.fs.jgit.JGitFileSystemProvider.getFileAttributeView(JGitFileSystemProvider.java:1615) [uberfire-nio2-jgit-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.getFileAttributeView(Files.java:557) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.IOServiceDotFileImpl.getFileAttributeView(IOServiceDotFileImpl.java:182) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.guvnor.common.services.backend.metadata.MetadataServiceImpl.getMetadata(MetadataServiceImpl.java:84) [guvnor-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.guvnor.common.services.backend.metadata.MetadataServiceImpl.getMetadata(MetadataServiceImpl.java:77) [guvnor-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.guvnor.common.services.backend.metadata.MetadataServiceImpl$Proxy$_$$_WeldClientProxy.getMetadata(Unknown Source) [guvnor-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadOverview(KieService.java:90) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadContent(KieService.java:75) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.loadContent(DRLTextEditorServiceImpl.java:149) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl$Proxy$_$$_WeldClientProxy.loadContent(Unknown Source) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at sun.reflect.GeneratedMethodAccessor78.invoke(Unknown Source) [:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_181]
+	at org.jboss.errai.bus.server.io.AbstractRPCMethodCallback.invokeMethodFromMessage(AbstractRPCMethodCallback.java:48) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.ValueReplyRPCEndpointCallback.callback(ValueReplyRPCEndpointCallback.java:22) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.RemoteServiceCallback.callback(RemoteServiceCallback.java:54) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.cdi.server.CDIExtensionPoints$2.callback(CDIExtensionPoints.java:410) [errai-weld-integration-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.DeliveryPlan.deliver(DeliveryPlan.java:47) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.ServerMessageBusImpl.sendGlobal(ServerMessageBusImpl.java:296) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.SimpleDispatcher.dispatchGlobal(SimpleDispatcher.java:46) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:97) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:114) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.servlet.DefaultBlockingServlet.doPost(DefaultBlockingServlet.java:142) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecureHeadersFilter.doFilter(SecureHeadersFilter.java:53) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecurityIntegrationFilter.doFilter(SecurityIntegrationFilter.java:45) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:47:26,251 WARN  [org.kie.workbench.common.services.backend.service.KieService] (default task-77) No metadata found for file: min_buy.drl, full path [default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/min_buy.drl]
+2019-02-20 23:47:26,506 ERROR [org.guvnor.common.services.backend.exceptions.ExceptionUtilities] (default task-73) Exception thrown: null: org.uberfire.java.nio.file.NoSuchFileException
+	at org.uberfire.java.nio.fs.jgit.JGitFileSystemProvider.getFileAttributeView(JGitFileSystemProvider.java:1615) [uberfire-nio2-jgit-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.getFileAttributeView(Files.java:557) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.IOServiceDotFileImpl.getFileAttributeView(IOServiceDotFileImpl.java:182) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.guvnor.common.services.backend.metadata.MetadataServiceImpl.getMetadata(MetadataServiceImpl.java:84) [guvnor-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.guvnor.common.services.backend.metadata.MetadataServiceImpl.getMetadata(MetadataServiceImpl.java:77) [guvnor-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.guvnor.common.services.backend.metadata.MetadataServiceImpl$Proxy$_$$_WeldClientProxy.getMetadata(Unknown Source) [guvnor-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadOverview(KieService.java:90) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadContent(KieService.java:75) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.loadContent(DRLTextEditorServiceImpl.java:149) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl$Proxy$_$$_WeldClientProxy.loadContent(Unknown Source) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at sun.reflect.GeneratedMethodAccessor78.invoke(Unknown Source) [:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_181]
+	at org.jboss.errai.bus.server.io.AbstractRPCMethodCallback.invokeMethodFromMessage(AbstractRPCMethodCallback.java:48) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.ValueReplyRPCEndpointCallback.callback(ValueReplyRPCEndpointCallback.java:22) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.RemoteServiceCallback.callback(RemoteServiceCallback.java:54) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.cdi.server.CDIExtensionPoints$2.callback(CDIExtensionPoints.java:410) [errai-weld-integration-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.DeliveryPlan.deliver(DeliveryPlan.java:47) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.ServerMessageBusImpl.sendGlobal(ServerMessageBusImpl.java:296) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.SimpleDispatcher.dispatchGlobal(SimpleDispatcher.java:46) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:97) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:114) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.servlet.DefaultBlockingServlet.doPost(DefaultBlockingServlet.java:142) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecureHeadersFilter.doFilter(SecureHeadersFilter.java:53) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecurityIntegrationFilter.doFilter(SecurityIntegrationFilter.java:45) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:47:26,509 WARN  [org.kie.workbench.common.services.backend.service.KieService] (default task-73) No metadata found for file: Default.drl, full path [default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/Default.drl]
+2019-02-20 23:47:27,506 ERROR [org.guvnor.common.services.backend.exceptions.ExceptionUtilities] (default task-77) Exception thrown: null: org.uberfire.java.nio.file.NoSuchFileException
+	at org.uberfire.java.nio.fs.jgit.JGitFileSystemProvider.readAttributes(JGitFileSystemProvider.java:1668) [uberfire-nio2-jgit-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAttributes(Files.java:574) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.size(Files.java:732) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAllBytes(Files.java:1042) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:454) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:464) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.load(DRLTextEditorServiceImpl.java:138) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:163) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:65) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadContent(KieService.java:75) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.loadContent(DRLTextEditorServiceImpl.java:149) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl$Proxy$_$$_WeldClientProxy.loadContent(Unknown Source) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at sun.reflect.GeneratedMethodAccessor78.invoke(Unknown Source) [:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_181]
+	at org.jboss.errai.bus.server.io.AbstractRPCMethodCallback.invokeMethodFromMessage(AbstractRPCMethodCallback.java:48) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.ValueReplyRPCEndpointCallback.callback(ValueReplyRPCEndpointCallback.java:22) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.RemoteServiceCallback.callback(RemoteServiceCallback.java:54) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.cdi.server.CDIExtensionPoints$2.callback(CDIExtensionPoints.java:410) [errai-weld-integration-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.DeliveryPlan.deliver(DeliveryPlan.java:47) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.ServerMessageBusImpl.sendGlobal(ServerMessageBusImpl.java:296) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.SimpleDispatcher.dispatchGlobal(SimpleDispatcher.java:46) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:97) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:114) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.servlet.DefaultBlockingServlet.doPost(DefaultBlockingServlet.java:142) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecureHeadersFilter.doFilter(SecureHeadersFilter.java:53) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecurityIntegrationFilter.doFilter(SecurityIntegrationFilter.java:45) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:47:27,509 ERROR [org.guvnor.common.services.backend.exceptions.ExceptionUtilities] (default task-77) Exception thrown: null: org.uberfire.java.nio.file.NoSuchFileException
+	at org.uberfire.java.nio.fs.jgit.JGitFileSystemProvider.readAttributes(JGitFileSystemProvider.java:1668) [uberfire-nio2-jgit-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAttributes(Files.java:574) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.size(Files.java:732) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAllBytes(Files.java:1042) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:454) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:464) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.load(DRLTextEditorServiceImpl.java:138) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:163) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:65) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadContent(KieService.java:75) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.loadContent(DRLTextEditorServiceImpl.java:149) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl$Proxy$_$$_WeldClientProxy.loadContent(Unknown Source) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at sun.reflect.GeneratedMethodAccessor78.invoke(Unknown Source) [:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_181]
+	at org.jboss.errai.bus.server.io.AbstractRPCMethodCallback.invokeMethodFromMessage(AbstractRPCMethodCallback.java:48) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.ValueReplyRPCEndpointCallback.callback(ValueReplyRPCEndpointCallback.java:22) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.RemoteServiceCallback.callback(RemoteServiceCallback.java:54) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.cdi.server.CDIExtensionPoints$2.callback(CDIExtensionPoints.java:410) [errai-weld-integration-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.DeliveryPlan.deliver(DeliveryPlan.java:47) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.ServerMessageBusImpl.sendGlobal(ServerMessageBusImpl.java:296) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.SimpleDispatcher.dispatchGlobal(SimpleDispatcher.java:46) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:97) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:114) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.servlet.DefaultBlockingServlet.doPost(DefaultBlockingServlet.java:142) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecureHeadersFilter.doFilter(SecureHeadersFilter.java:53) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecurityIntegrationFilter.doFilter(SecurityIntegrationFilter.java:45) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:47:28,527 ERROR [org.guvnor.common.services.backend.exceptions.ExceptionUtilities] (default task-73) Exception thrown: null: org.uberfire.java.nio.file.NoSuchFileException
+	at org.uberfire.java.nio.fs.jgit.JGitFileSystemProvider.readAttributes(JGitFileSystemProvider.java:1668) [uberfire-nio2-jgit-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAttributes(Files.java:574) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.size(Files.java:732) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAllBytes(Files.java:1042) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:454) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:464) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.load(DRLTextEditorServiceImpl.java:138) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:163) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:65) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadContent(KieService.java:75) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.loadContent(DRLTextEditorServiceImpl.java:149) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl$Proxy$_$$_WeldClientProxy.loadContent(Unknown Source) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at sun.reflect.GeneratedMethodAccessor78.invoke(Unknown Source) [:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_181]
+	at org.jboss.errai.bus.server.io.AbstractRPCMethodCallback.invokeMethodFromMessage(AbstractRPCMethodCallback.java:48) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.ValueReplyRPCEndpointCallback.callback(ValueReplyRPCEndpointCallback.java:22) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.RemoteServiceCallback.callback(RemoteServiceCallback.java:54) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.cdi.server.CDIExtensionPoints$2.callback(CDIExtensionPoints.java:410) [errai-weld-integration-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.DeliveryPlan.deliver(DeliveryPlan.java:47) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.ServerMessageBusImpl.sendGlobal(ServerMessageBusImpl.java:296) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.SimpleDispatcher.dispatchGlobal(SimpleDispatcher.java:46) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:97) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:114) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.servlet.DefaultBlockingServlet.doPost(DefaultBlockingServlet.java:142) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecureHeadersFilter.doFilter(SecureHeadersFilter.java:53) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecurityIntegrationFilter.doFilter(SecurityIntegrationFilter.java:45) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:47:28,529 ERROR [org.guvnor.common.services.backend.exceptions.ExceptionUtilities] (default task-73) Exception thrown: null: org.uberfire.java.nio.file.NoSuchFileException
+	at org.uberfire.java.nio.fs.jgit.JGitFileSystemProvider.readAttributes(JGitFileSystemProvider.java:1668) [uberfire-nio2-jgit-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAttributes(Files.java:574) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.size(Files.java:732) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAllBytes(Files.java:1042) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:454) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:464) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.load(DRLTextEditorServiceImpl.java:138) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:163) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:65) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadContent(KieService.java:75) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.loadContent(DRLTextEditorServiceImpl.java:149) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl$Proxy$_$$_WeldClientProxy.loadContent(Unknown Source) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at sun.reflect.GeneratedMethodAccessor78.invoke(Unknown Source) [:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_181]
+	at org.jboss.errai.bus.server.io.AbstractRPCMethodCallback.invokeMethodFromMessage(AbstractRPCMethodCallback.java:48) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.ValueReplyRPCEndpointCallback.callback(ValueReplyRPCEndpointCallback.java:22) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.RemoteServiceCallback.callback(RemoteServiceCallback.java:54) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.cdi.server.CDIExtensionPoints$2.callback(CDIExtensionPoints.java:410) [errai-weld-integration-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.DeliveryPlan.deliver(DeliveryPlan.java:47) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.ServerMessageBusImpl.sendGlobal(ServerMessageBusImpl.java:296) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.SimpleDispatcher.dispatchGlobal(SimpleDispatcher.java:46) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:97) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:114) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.servlet.DefaultBlockingServlet.doPost(DefaultBlockingServlet.java:142) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecureHeadersFilter.doFilter(SecureHeadersFilter.java:53) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecurityIntegrationFilter.doFilter(SecurityIntegrationFilter.java:45) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:47:28,534 ERROR [org.guvnor.common.services.backend.exceptions.ExceptionUtilities] (default task-73) Exception thrown: null: org.uberfire.java.nio.file.NoSuchFileException
+	at org.uberfire.java.nio.fs.jgit.JGitFileSystemProvider.getFileAttributeView(JGitFileSystemProvider.java:1615) [uberfire-nio2-jgit-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.getFileAttributeView(Files.java:557) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.IOServiceDotFileImpl.getFileAttributeView(IOServiceDotFileImpl.java:182) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.guvnor.common.services.backend.metadata.MetadataServiceImpl.getMetadata(MetadataServiceImpl.java:84) [guvnor-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.guvnor.common.services.backend.metadata.MetadataServiceImpl.getMetadata(MetadataServiceImpl.java:77) [guvnor-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.guvnor.common.services.backend.metadata.MetadataServiceImpl$Proxy$_$$_WeldClientProxy.getMetadata(Unknown Source) [guvnor-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadOverview(KieService.java:90) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadContent(KieService.java:75) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.loadContent(DRLTextEditorServiceImpl.java:149) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl$Proxy$_$$_WeldClientProxy.loadContent(Unknown Source) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at sun.reflect.GeneratedMethodAccessor78.invoke(Unknown Source) [:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_181]
+	at org.jboss.errai.bus.server.io.AbstractRPCMethodCallback.invokeMethodFromMessage(AbstractRPCMethodCallback.java:48) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.ValueReplyRPCEndpointCallback.callback(ValueReplyRPCEndpointCallback.java:22) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.RemoteServiceCallback.callback(RemoteServiceCallback.java:54) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.cdi.server.CDIExtensionPoints$2.callback(CDIExtensionPoints.java:410) [errai-weld-integration-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.DeliveryPlan.deliver(DeliveryPlan.java:47) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.ServerMessageBusImpl.sendGlobal(ServerMessageBusImpl.java:296) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.SimpleDispatcher.dispatchGlobal(SimpleDispatcher.java:46) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:97) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:114) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.servlet.DefaultBlockingServlet.doPost(DefaultBlockingServlet.java:142) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecureHeadersFilter.doFilter(SecureHeadersFilter.java:53) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecurityIntegrationFilter.doFilter(SecurityIntegrationFilter.java:45) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:47:28,538 WARN  [org.kie.workbench.common.services.backend.service.KieService] (default task-73) No metadata found for file: Basic.drl, full path [default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/drools/Basic.drl]
+2019-02-20 23:47:29,570 ERROR [org.guvnor.common.services.backend.exceptions.ExceptionUtilities] (default task-73) Exception thrown: null: org.uberfire.java.nio.file.NoSuchFileException
+	at org.uberfire.java.nio.fs.jgit.JGitFileSystemProvider.readAttributes(JGitFileSystemProvider.java:1668) [uberfire-nio2-jgit-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAttributes(Files.java:574) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.size(Files.java:732) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAllBytes(Files.java:1042) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:454) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:464) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.load(DRLTextEditorServiceImpl.java:138) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:163) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:65) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadContent(KieService.java:75) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.loadContent(DRLTextEditorServiceImpl.java:149) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl$Proxy$_$$_WeldClientProxy.loadContent(Unknown Source) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at sun.reflect.GeneratedMethodAccessor78.invoke(Unknown Source) [:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_181]
+	at org.jboss.errai.bus.server.io.AbstractRPCMethodCallback.invokeMethodFromMessage(AbstractRPCMethodCallback.java:48) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.ValueReplyRPCEndpointCallback.callback(ValueReplyRPCEndpointCallback.java:22) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.RemoteServiceCallback.callback(RemoteServiceCallback.java:54) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.cdi.server.CDIExtensionPoints$2.callback(CDIExtensionPoints.java:410) [errai-weld-integration-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.DeliveryPlan.deliver(DeliveryPlan.java:47) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.ServerMessageBusImpl.sendGlobal(ServerMessageBusImpl.java:296) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.SimpleDispatcher.dispatchGlobal(SimpleDispatcher.java:46) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:97) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:114) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.servlet.DefaultBlockingServlet.doPost(DefaultBlockingServlet.java:142) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecureHeadersFilter.doFilter(SecureHeadersFilter.java:53) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecurityIntegrationFilter.doFilter(SecurityIntegrationFilter.java:45) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:47:29,574 ERROR [org.guvnor.common.services.backend.exceptions.ExceptionUtilities] (default task-73) Exception thrown: null: org.uberfire.java.nio.file.NoSuchFileException
+	at org.uberfire.java.nio.fs.jgit.JGitFileSystemProvider.readAttributes(JGitFileSystemProvider.java:1668) [uberfire-nio2-jgit-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAttributes(Files.java:574) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.size(Files.java:732) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.java.nio.file.Files.readAllBytes(Files.java:1042) [uberfire-nio2-api-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:454) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.uberfire.io.impl.AbstractIOService.readAllString(AbstractIOService.java:464) [uberfire-io-0.7.3.Final.jar:0.7.3.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.load(DRLTextEditorServiceImpl.java:138) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:163) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.constructContent(DRLTextEditorServiceImpl.java:65) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.kie.workbench.common.services.backend.service.KieService.loadContent(KieService.java:75) [kie-wb-common-services-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl.loadContent(DRLTextEditorServiceImpl.java:149) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl$Proxy$_$$_WeldClientProxy.loadContent(Unknown Source) [drools-wb-drl-text-editor-backend-6.3.0.Final.jar:6.3.0.Final]
+	at sun.reflect.GeneratedMethodAccessor78.invoke(Unknown Source) [:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_181]
+	at org.jboss.errai.bus.server.io.AbstractRPCMethodCallback.invokeMethodFromMessage(AbstractRPCMethodCallback.java:48) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.ValueReplyRPCEndpointCallback.callback(ValueReplyRPCEndpointCallback.java:22) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.io.RemoteServiceCallback.callback(RemoteServiceCallback.java:54) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.cdi.server.CDIExtensionPoints$2.callback(CDIExtensionPoints.java:410) [errai-weld-integration-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.DeliveryPlan.deliver(DeliveryPlan.java:47) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.ServerMessageBusImpl.sendGlobal(ServerMessageBusImpl.java:296) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.SimpleDispatcher.dispatchGlobal(SimpleDispatcher.java:46) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:97) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.service.ErraiServiceImpl.store(ErraiServiceImpl.java:114) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at org.jboss.errai.bus.server.servlet.DefaultBlockingServlet.doPost(DefaultBlockingServlet.java:142) [errai-bus-3.2.0.Final.jar:3.2.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecureHeadersFilter.doFilter(SecureHeadersFilter.java:53) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.uberfire.ext.security.server.SecurityIntegrationFilter.doFilter(SecurityIntegrationFilter.java:45) [uberfire-servlet-security-0.7.3.Final.jar:0.7.3.Final]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_181]
+
+2019-02-20 23:47:56,421 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) Incremental build request received for: default://master@uf-playground/coupon-drools/src/main/resources/Min_bye.drl (added).
+2019-02-20 23:47:56,470 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (EJB default - 3) Incremental build request being processed: default://master@uf-playground/coupon-drools/src/main/resources/Min_bye.drl (added).
+2019-02-20 23:48:21,519 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) Incremental build request received for: default://master@uf-playground/coupon-drools/pom.xml (updated).
+2019-02-20 23:48:21,543 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (EJB default - 4) Incremental build request being processed: PathImpl{uri='default://master@uf-playground/coupon-drools', fileName='coupon-drools', attrs={}} (updated).
+2019-02-20 23:48:21,590 INFO  [org.kie.scanner.embedder.MavenEmbedderUtils] (EJB default - 4) Not in OSGi: using plexus based maven parser
+2019-02-20 23:48:24,465 INFO  [org.kie.scanner.embedder.MavenEmbedderUtils] (default task-89) Not in OSGi: using plexus based maven parser
+2019-02-20 23:48:25,215 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (EJB default - 4) KieModule was added: MemoryKieModule[releaseId=in.lifcare:coupon:1.0]
+2019-02-20 23:48:25,218 WARN  [org.kie.workbench.common.services.backend.builder.Builder] (EJB default - 4) in.lifcare.coupon.model.Coupon from [Module "deployment.kie-drools-wb.war:main" from Service Module Loader]
+2019-02-20 23:48:26,324 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (default task-89) KieModule was added: MemoryKieModule[releaseId=in.lifcare:coupon:1.0]
+2019-02-20 23:48:26,328 WARN  [org.kie.workbench.common.services.backend.builder.Builder] (default task-89) in.lifcare.coupon.model.Coupon from [Module "deployment.kie-drools-wb.war:main" from Service Module Loader]
+2019-02-20 23:48:28,334 INFO  [org.kie.scanner.embedder.MavenEmbedderUtils] (default task-89) Not in OSGi: using plexus based maven parser
+2019-02-20 23:49:38,054 INFO  [org.uberfire.ext.editor.commons.backend.service.DeleteServiceImpl] (default task-110) User:dev deleting file [Min_bye.drl]
+2019-02-20 23:49:38,080 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) Incremental build request received for: default://master@uf-playground/coupon-drools/src/main/resources/Min_bye.drl (deleted).
+2019-02-20 23:49:38,121 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (EJB default - 6) Incremental build request being processed: default://master@uf-playground/coupon-drools/src/main/resources/Min_bye.drl (deleted).
+2019-02-20 23:50:38,801 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) Incremental build request received for: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/Min_buy.drl (added).
+2019-02-20 23:50:38,846 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (EJB default - 6) Incremental build request being processed: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/Min_buy.drl (added).
+2019-02-20 23:50:39,860 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (EJB default - 6) KieModule was added: MemoryKieModule[releaseId=in.lifcare:coupon:1.0]
+2019-02-20 23:50:55,322 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (Thread-96) Incremental build request received for: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/Min_buy.drl (updated).
+2019-02-20 23:50:56,293 INFO  [org.guvnor.common.services.builder.ResourceChangeIncrementalBuilder] (EJB default - 1) Incremental build request being processed: default://master@uf-playground/coupon-drools/src/main/resources/in/lifcare/Min_buy.drl (updated).
+2019-02-20 23:51:03,644 INFO  [org.kie.scanner.embedder.MavenEmbedderUtils] (default task-12) Not in OSGi: using plexus based maven parser
+2019-02-20 23:51:07,919 ERROR [org.drools.compiler.kie.builder.impl.AbstractKieModule] (default task-12) Unable to build KieBaseModel:defaultKieBase
+Unable to resolve ObjectType 'Order' : [Rule name='min_buy']
+
+Unable to resolve ObjectType 'CouponResult' : [Rule name='min_buy']
+
+Rule Compilation error : [Rule name='min_buy']
+	in/lifcare/Rule_min_buy1044062606.java (2:27) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (2:122) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (2:165) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (2:223) : Only a type can be imported. in.lifcare.coupon.model.MinBuyCategory resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (8:511) : $totalMrp cannot be resolved to a variable
+	in/lifcare/Rule_min_buy1044062606.java (8:523) : $minBuy cannot be resolved to a variable
+	in/lifcare/Rule_min_buy1044062606.java (14:851) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/Rule_min_buy1044062606.java (14:874) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/Rule_min_buy1044062606.java (15:932) : $category cannot be resolved
+	in/lifcare/Rule_min_buy1044062606.java (20:1097) : couponResult cannot be resolved
+	in/lifcare/Rule_min_buy1044062606.java (21:1137) : couponResult cannot be resolved
+	in/lifcare/Rule_min_buy1044062606.java (21:1211) : $minBuy cannot be resolved to a variable
+
+Error importing : 'in.lifcare.coupon.rule.model.CouponResult'
+Error importing : 'in.lifcare.coupon.order.model.Order'
+
+2019-02-20 23:58:02,018 INFO  [org.kie.scanner.embedder.MavenEmbedderUtils] (default task-52) Not in OSGi: using plexus based maven parser
+2019-02-20 23:58:06,636 ERROR [org.drools.compiler.kie.builder.impl.AbstractKieModule] (default task-52) Unable to build KieBaseModel:defaultKieBase
+Unable to resolve ObjectType 'Order' : [Rule name='min_buy']
+
+Unable to resolve ObjectType 'CouponResult' : [Rule name='min_buy']
+
+Rule Compilation error : [Rule name='min_buy']
+	in/lifcare/Rule_min_buy1044062606.java (2:27) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (2:122) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (2:165) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (2:223) : Only a type can be imported. in.lifcare.coupon.model.MinBuyCategory resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (8:511) : $totalMrp cannot be resolved to a variable
+	in/lifcare/Rule_min_buy1044062606.java (8:523) : $minBuy cannot be resolved to a variable
+	in/lifcare/Rule_min_buy1044062606.java (14:851) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/Rule_min_buy1044062606.java (14:874) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/Rule_min_buy1044062606.java (15:932) : $category cannot be resolved
+	in/lifcare/Rule_min_buy1044062606.java (20:1097) : couponResult cannot be resolved
+	in/lifcare/Rule_min_buy1044062606.java (21:1137) : couponResult cannot be resolved
+	in/lifcare/Rule_min_buy1044062606.java (21:1211) : $minBuy cannot be resolved to a variable
+
+Error importing : 'in.lifcare.coupon.rule.model.CouponResult'
+Error importing : 'in.lifcare.coupon.order.model.Order'
+
+2019-02-20 23:58:51,700 INFO  [org.kie.scanner.embedder.MavenEmbedderUtils] (default task-29) Not in OSGi: using plexus based maven parser
+2019-02-20 23:58:54,814 ERROR [org.drools.compiler.kie.builder.impl.AbstractKieModule] (default task-29) Unable to build KieBaseModel:defaultKieBase
+Unable to resolve ObjectType 'Order' : [Rule name='min_buy']
+
+Unable to resolve ObjectType 'CouponResult' : [Rule name='min_buy']
+
+Rule Compilation error : [Rule name='min_buy']
+	in/lifcare/Rule_min_buy1044062606.java (2:27) : Only a type can be imported. in.lifcare.coupon.rule.model.CouponResult resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (2:122) : Only a type can be imported. in.lifcare.coupon.order.model.Order resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (2:165) : Only a type can be imported. in.lifcare.coupon.model.Coupon resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (2:223) : Only a type can be imported. in.lifcare.coupon.model.MinBuyCategory resolves to a package
+	in/lifcare/Rule_min_buy1044062606.java (8:511) : $totalMrp cannot be resolved to a variable
+	in/lifcare/Rule_min_buy1044062606.java (8:523) : $minBuy cannot be resolved to a variable
+	in/lifcare/Rule_min_buy1044062606.java (14:851) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/Rule_min_buy1044062606.java (14:874) : MinBuyCategory cannot be resolved to a type
+	in/lifcare/Rule_min_buy1044062606.java (15:932) : $category cannot be resolved
+	in/lifcare/Rule_min_buy1044062606.java (20:1097) : couponResult cannot be resolved
+	in/lifcare/Rule_min_buy1044062606.java (21:1137) : couponResult cannot be resolved
+	in/lifcare/Rule_min_buy1044062606.java (21:1211) : $minBuy cannot be resolved to a variable
+
+Error importing : 'in.lifcare.coupon.rule.model.CouponResult'
+Error importing : 'in.lifcare.coupon.order.model.Order'
+
